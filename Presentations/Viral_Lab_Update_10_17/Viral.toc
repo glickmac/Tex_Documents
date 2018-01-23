@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Methods}{8}{0}{2}
+\beamer@sectionintoc {3}{Simulation Study}{11}{0}{3}
+\beamer@sectionintoc {4}{Sensitivity Study}{17}{0}{4}
