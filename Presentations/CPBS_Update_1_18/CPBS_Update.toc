@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Metagenomic Simulation Study}{8}{0}{2}
-\beamer@sectionintoc {3}{GRAB}{20}{0}{3}
-\beamer@sectionintoc {4}{BUD}{24}{0}{4}
+\beamer@sectionintoc {3}{GRAB}{17}{0}{3}
+\beamer@sectionintoc {4}{Building Up Domains}{25}{0}{4}
