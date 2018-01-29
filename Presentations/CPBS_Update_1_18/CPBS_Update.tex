@@ -97,7 +97,7 @@
 	\vspace{-0.3cm}
 	\begin{itemize}
 	\item 90\% of NTM cultures are from respiratory samples
-	\item The lung has the lowest abundance of DNA viruses in the human niche
+	\item The lung has the lowest abundance of bacteriophages among human niches
 	\end{itemize}
 	\end{block}
 	
@@ -113,7 +113,7 @@
 	\begin{columns}
 	\column{0.7\textwidth}
 	
-	\begin{block}{Bacteriophages aka Phages}
+	\begin{block}{Bacteriophages (Phages)}
 	Phages are DNA viruses that infect prokaryotes
 	\end{block}
 	
@@ -146,7 +146,7 @@
 	\begin{block}{Difficulties of phage study}
 	\begin{itemize}
 		\item Lack of universal marker gene
-		\item Sequence heterogeneaity 
+		\item Sequence heterogeneity 
 		\item Misclassification in databases
 	\end{itemize}
 	\end{block}
@@ -155,7 +155,7 @@
 	\begin{block}{Phage Isolation Methods}
 	\begin{itemize}
 		\item Biological filtration
-		\item In Silico Methods
+		\item In silico methods
 	\end{itemize}
 	\end{block}
 	
@@ -169,12 +169,8 @@
 
 	
 	\begin{frame}{Objective}
-	
-	Develop new tools and pipelines to identify and quantify bacteriophage elements in shotgun metagenomic sequences.
-	
-	\begin{block}{Secondary Goal}
-	Identify relationships between bacteria and phages using abundance quantification in metagenomics across multiple studies. 
-	\end{block}
+	\center
+	\includegraphics[height=6cm, width=9cm]{objective.png}
 	
 	\end{frame}
 
@@ -190,7 +186,7 @@
 	\end{block}
 	\begin{block}{Importance of Metagenomics}
 	\begin{itemize}
-	\item Functional potential of a sample
+	\item Functional capabilities of a sample
 	\item Species level distinctions
 	\item Due to lack of a universal gene marker, phages are studied by metagenomics
 	\end{itemize}
@@ -270,7 +266,6 @@
 	\end{frame}
 	
 	\begin{frame}{Tools Used in Study}
-	The tools used in this study are selected based on recent publications
 	\begin{block}{Assembler}
 	MEGAHIT - Effective at assembling viromes \\
 	\tiny{Roux, S, et al. PeerJ 2017}
@@ -319,7 +314,7 @@
 	\begin{itemize}
 	\item Recall = TP / (TP + FN)
 	\item Precision = TP / (TP + FP)
-	\item F1 = (2*TP) / (2*TP + FP + FN)
+	%\item F1 = (2*TP) / (2*TP + FP + FN)
 	\end{itemize}
 	\end{block}
 	\end{frame}
@@ -351,9 +346,10 @@
 	
 	
 	\begin{block}{Tool Parameter Optimization}
+	Used default tool parameters for all tools
 	\begin{itemize}
-	\item Default VirFinder classifier trained only on phages
-	\item BLAST thresholding \alert{slide to be added later}
+	\item Lenient BLASTX filtering resulting in false positives
+	\item vHMM model is the second iteration
 	\end{itemize}
 	\end{block}
 	
@@ -480,7 +476,7 @@
 	GRAB Pipeline
 	\includegraphics[height=6cm, width=10cm]{GRAB.png}
 	\\
-	\tiny{submitted bioarkxiv}
+	
 	\end{frame}
 	
 
@@ -521,7 +517,7 @@
 	\includegraphics[height=3.5cm, width=5cm]{prophage.png}
 	\end{block}
 	\begin{block}{Importance of Prophages}
-	Prophages can confer advantages to host to improve survival \\ 
+	Prophages can confer advantages to host improving survival \\ 
 	Prophages are important to the emergence of pathogenic bacteria
 	\end{block}
 	
@@ -594,9 +590,9 @@
 	\begin{frame}{Potential Uses of BUD	}
 
 	\begin{block}{Expanding Known Phage Host Range}
-	An aim of my thesis is to expand and catalog the known host range of phages associated with pathogenic bacteria 
+	BUD has the potential to identify novel hosts for prophages
 	
-	\includegraphics[height=6cm, width=10cm]{network.png}
+	\includegraphics[height=6cm, width=11cm]{network.png}
 	\end{block}
 	
 	\end{frame}
@@ -636,8 +632,29 @@
 	
 \section{}
 
-	\begin{frame}{Relating Tools to Thesis}
+	\begin{frame}{Concluding Remarks}
+	\center
+	\includegraphics[height=2cm, width=10cm]{goals.png}
+	\begin{columns}
+	\column{0.3\textwidth}
+	\begin{block}{Metagenomic Simulation Study}
+	Effectively identifying viral elements improves bacterial abundance calculation
+	\end{block}
+	\column{0.3\textwidth}
+	\begin{block}{GRAB}
+	Viral GRAB will contribute to a focus on phages specific to lung infections
+	\end{block}
+	\column{0.3\textwidth}
+	\begin{block}{Building Up Domains}
+	Allows for the identification of prophages elements in metagenomics
+	\end{block}
+	
+	\end{columns}
+	
 	\end{frame}
+	
+	
+	
 	
 	\begin{frame}{}
 	\vspace{1cm}
