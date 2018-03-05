@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 FEB 2018 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 MAR 2018 09:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -477,21 +477,37 @@ Overfull \hbox (9.6162pt too wide) in paragraph at lines 138--139
  Unipro-t/TrEmbL. Dowloaded
  []
 
-<images/example_figure.png, id=76, 150.5625pt x 90.3375pt>
+
+Overfull \hbox (53.13684pt too wide) in paragraph at lines 162--162
+[]\OT1/cmtt/m/n/10.95 makeblastdb -in Combined_VF.faa -dbtype prot -out Combine
+d_VF -title "Combined_VF"[] 
+ []
+
+
+Overfull \hbox (24.3934pt too wide) in paragraph at lines 162--162
+[]\OT1/cmtt/m/n/10.95 blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined
+_VF -out results.txt[] 
+ []
+
+<images/example_figure.png, id=77, 150.5625pt x 90.3375pt>
 File: images/example_figure.png Graphic file (type png)
 
 <use images/example_figure.png>
-Package pdftex.def Info: images/example_figure.png used on input line 156.
+Package pdftex.def Info: images/example_figure.png used on input line 178.
 (pdftex.def)             Requested size: 209.12778pt x 125.48878pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [1
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
-has been already used, duplicate ignored
+]
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.166 \lipsum[3-5]
-                   <./images/example_figure.png>] [2]
+l.192 \labday{Friday, 26 March 2010}
+                                     <./images/example_figure.png>]
 chapter without number
 [3
 
@@ -500,16 +516,16 @@ as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.193 \labday{Saturday, 27 March 2010}
+l.215 \labday{Saturday, 27 March 2010}
                                       ]
 chapter without number
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 200.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 222.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 200.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 222.
  [4
 
 ]
@@ -517,17 +533,17 @@ chapter without number
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--249
+Underfull \hbox (badness 10000) in paragraph at lines 259--271
 
  []
 
@@ -536,41 +552,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--249
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.261 \newpage
+l.283 \newpage
               ]
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--267
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--267
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--267
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./Lab_notebook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 Package rerunfilecheck Info: File `Lab_notebook.out' has not changed.
 (rerunfilecheck)             Checksum: 5F708F71E7957F5A41DE4B22AF9E84AF;643.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
  ) 
 Here is how much of TeX's memory you used:
  9253 strings out of 492995
@@ -579,7 +599,7 @@ Here is how much of TeX's memory you used:
  12693 multiletter control sequences out of 15000+600000
  10974 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,9n,68p,8859b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,9n,68p,8859b,1103s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -591,10 +611,10 @@ l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Lab_notebook.pdf (11 pages, 137057 bytes).
+Output written on Lab_notebook.pdf (11 pages, 141929 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 171 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
  33 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

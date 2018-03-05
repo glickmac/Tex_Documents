@@ -135,11 +135,33 @@
 
 \experiment{VF_HMM}
 
-Downloaded phage protein data searching by taxonomy from Uniprot/TrEmbL. Dowloaded three datasets Claudioviruses, Ligamenvirales, and Unclassified
+Downloaded phage protein data searching by taxonomy from Uniprot/TrEmbL. Dowloaded three datasets Claudioviruses, Ligamenvirales, and Unclassified. Downloaded viral contigs from vHMM \href{http://portal.nersc.gov/dna/microbial/prokpubs/EarthVirome_DP/}{Earth Virome Project}. 
+
+Metagenomic gene prediction through prodigal downloaded from conda "conda install prodigal"
 
 \begin{verbatim}
-wget things
+prodigal -i mVGs_sequences_v2.fna -o my_genes -a my_proteins.faa -p meta
 \end{verbatim}
+
+The myproteins.faa file contains the translated predicted genes. This set is applied to the VF HMM and similar to the other datasets, returned no hits with hmmsearch. 
+
+\vspace{0.3cm}
+
+Creating virulence factor blast database to blast against viral contigs. Choosing a E value threshold:
+
+
+\textbf{Goals}
+Finish written GRAB and Abstract for NLM
+
+
+\begin{verbatim}
+makeblastdb -in Combined_VF.faa -dbtype prot -out Combined_VF -title "Combined_VF"
+
+blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined_VF -out results.txt
+-outfmt 6 -query phage_proteins.faa
+\end{verbatim}
+
+
 
 
 \begin{lstlisting}
