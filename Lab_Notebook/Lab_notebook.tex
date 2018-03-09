@@ -152,6 +152,7 @@ Creating virulence factor blast database to blast against viral contigs. Choosin
 
 \textbf{Goals}
 Finish written GRAB and Abstract for NLM
+Done (3/2/18)
 
 
 \begin{verbatim}
@@ -171,25 +172,87 @@ print(x)
 
 %-----------------------------------------
 
-\experiment{example2} % Multiple experiments can be included in a single day, this allows you to segment what was done each day into separate categories
 
-\begin{figure}[H] % Example of including images
-\begin{center}
-\includegraphics[width=0.5\linewidth]{images/example_figure}
-\end{center}
-\caption{Example figure.}
-\label{fig:example_figure}
-\end{figure}
 
-%-----------------------------------------
+\labday{Week of 5 March 2018}
 
-\experiment{example3}
+\textbf{Goals}
+\begin{itemize}
+\item Prophage Annotation and VF/ARG Pipeline (Wednesday)
+\item ML Pipeline Active Prophage
+\item CAMI Data With Conda for Reproducibility
+\end{itemize}
 
-\lipsum[3-5]
+\experiment{VF_HMM}
+Establishing the BASH pipeline
+
+\begin{verbatim}
+1. Prophage Prediction
+Input: Contigs.fasta
+Output: Prophage Zip Folder
+
+2. Gene Prediction
+Input: Sequences of Identified Prophages
+Output: Protein Fasta
+
+3. Virulence Factor Identification
+Input: Protein Fasta
+Output: Proteins called Virulence Factors
+
+\end{verbatim}
+
+
+\experiment{Lysogenic Pan Genome}
+
+Downloaded phage table from \href{http://phagesdb.org/data/}{PhageDB}. Parse temperate phages from Graham Hatful's List and those that infect Mycobacterium. Save Genbank ID numbers as Numbers.txt in script PhageDBProcessing.Rmd.
+
+\vspace{0.3cm}
+
+Calling GBK Files from nuccore. 
+
+\begin{lstlisting}
+## Load GenBankIds and Remove Whitespace
+with open("Numbers.txt") as f:
+    content = f.readlines()
+content = [x.strip() for x in content]
+
+## Call Entrez for Genbank_Ids
+for i in range(0,len(content)):
+    handle = Entrez.efetch(db="nuccore", id=content[i], rettype="gb")
+    filename = 'genbank_files/'+ content[i] + '.gbk'
+    out_handle = open(filename, "w")
+    out_handle.write(handle.read())
+    out_handle.close()
+    handle.close()
+    print("Saved " + filename)
+\end{lstlisting} 
+
+\textbf{Run Core Genome Analysis}
+
+\vspace{0.3cm}
+
+Convert to GFF3
+
+\begin{verbatim}
+bp_genbank2gff3.pl --dir pathtofiles
+\end{verbatim}
+
+
+Run Roary
+
+\begin{verbatim}
+roary -e --maft -p 8 *.gff
+\end{verbatim}
+
+
+
+
+
 
 %----------------------------------------------------------------------------------------
 
-\labday{Friday, 26 March 2010}
+\labday{Week of 12 March 2018}
+
 
 \experiment{table}
 
@@ -210,31 +273,17 @@ print(x)
 
 Table \ref{tab:treatments_xy} shows that groups 1-3 reacted similarly to the two treatments but group 4 showed a reversed reaction.
 
-%----------------------------------------------------------------------------------------
 
-\labday{Saturday, 27 March 2010}
+\experiment{example2} % Multiple experiments can be included in a single day, this allows you to segment what was done each day into separate categories
 
-\experiment{Bulleted list example} % You don't need to make a \newexperiment if you only plan on referencing it once
+\begin{figure}[H] % Example of including images
+\begin{center}
+\includegraphics[width=0.5\linewidth]{images/example_figure}
+\end{center}
+\caption{Example figure.}
+\label{fig:example_figure}
+\end{figure}
 
-This is a bulleted list:
-
-\begin{itemize}
-\item Item 1
-\item Item 2
-\item \ldots and so on
-\end{itemize}
-
-%-----------------------------------------
-
-\experiment{example}
-
-\lipsum[6]
-
-%-----------------------------------------
-
-\experiment{example2}
-
-\lipsum[7]
 
 %----------------------------------------------------------------------------------------
 %	FORMULAE AND MEDIA RECIPES
