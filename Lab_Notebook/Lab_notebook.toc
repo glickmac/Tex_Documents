@@ -4,5 +4,6 @@
 \contentsline {experiment}{\numberline {1}Identifying Virulence Factors in Phages}{2}{experiment.2.1}
 \contentsline {experiment}{\numberline {2}Lysogenic Pan Genome}{2}{experiment.2.2}
 \contentsline {chapter}{\nonumberline Week of 12 March 2018}{4}{chapter*.4}
-\contentsline {experiment}{\numberline {1}This shows a sample table}{4}{experiment.3.1}
-\contentsline {experiment}{\numberline {2}example2}{4}{experiment.3.2}
+\contentsline {experiment}{\numberline {1}Genomic Retrieval and BLAST Database Creation}{4}{experiment.3.1}
+\contentsline {chapter}{\nonumberline Week of 19 March 2018}{5}{chapter*.5}
+\contentsline {experiment}{\numberline {1}Classifying predicted prophages as active or degraded}{5}{experiment.4.1}

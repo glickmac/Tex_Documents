@@ -92,7 +92,6 @@
 \newexperiment{VF_HMM}{Identifying Virulence Factors in Phages}
 \newexperiment{GRAB}{Genomic Retrieval and BLAST Database Creation}
 \newexperiment{Active_Prophage}{Classifying predicted prophages as active or degraded}
-\newexperiment{table}{This shows a sample table}
 %\newexperiment{shorthand}{Description of the experiment}
 
 %---------------------------------------------------------------------------------------
@@ -123,13 +122,6 @@
 %	LAB BOOK CONTENTS
 %----------------------------------------------------------------------------------------
 
-% Blank template to use for new days:
-
-%\labday{Day, Date Month Year}
-
-%\experiment{}
-
-%Text
 
 \labday{Week of 26 February 2018}
 
@@ -170,7 +162,8 @@ blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined_VF -out results.txt
 print(x)
 \end{lstlisting} 
 
-%-----------------------------------------
+
+%----------------------------------------------------------------------------------------
 
 
 
@@ -206,7 +199,7 @@ Output: Proteins called Virulence Factors
 
 Downloaded phage table from \href{http://phagesdb.org/data/}{PhageDB}. Parse temperate phages from Graham Hatful's List and those that infect Mycobacterium. Save Genbank ID numbers as Numbers.txt in script PhageDBProcessing.Rmd.
 
-\vspace{0.3cm}
+
 
 Calling GBK Files from nuccore. 
 
@@ -254,35 +247,37 @@ roary -e --maft -p 8 *.gff
 \labday{Week of 12 March 2018}
 
 
-\experiment{table}
+\experiment{GRAB}
 
-\begin{table}[H]
-\begin{tabular}{l l l}
-\toprule
-\textbf{Groups} & \textbf{Treatment X} & \textbf{Treatment Y} \\
-\toprule
-1 & 0.2 & 0.8\\
-2 & 0.17 & 0.7\\
-3 & 0.24 & 0.75\\
-4 & 0.68 & 0.3\\
-\bottomrule
-\end{tabular}
-\caption{The effects of treatments X and Y on the four groups studied.}
-\label{tab:treatments_xy}
-\end{table}
+Submitted GRAB document to bioRxiv: received resubmission request
 
-Table \ref{tab:treatments_xy} shows that groups 1-3 reacted similarly to the two treatments but group 4 showed a reversed reaction.
+Resupply manuscript to MS ID 246553
+
+Include data about functionality compared to other tools or show with an example dataset
 
 
-\experiment{example2} % Multiple experiments can be included in a single day, this allows you to segment what was done each day into separate categories
+%---------------------------------------------------------------------------------------
 
-\begin{figure}[H] % Example of including images
-\begin{center}
-\includegraphics[width=0.5\linewidth]{images/example_figure}
-\end{center}
-\caption{Example figure.}
-\label{fig:example_figure}
-\end{figure}
+\labday{Week of 19 March 2018}
+
+\experiment{Active_Prophage}
+
+Met Monday with Graham Hatfull and members of his lab. Confirmed genes to predict lysogenic life cycle. Holins are hard to predict as they are transmembrane proteins and may have small amount of conservation. Holins may be better predicted by k-mer protein groups. 
+
+\begin{itemize}
+\item Integrases \\
+Involved in phage insertion into host genome
+\item ParA - ParB - ParS \\
+Involved in extra chromosomal arrangement and replication
+\item Repressors \\
+Inhibits replication until stimulus 
+\end{itemize}
+
+Additional Take-Aways: Portal genes may be targets of bacterial resistance to phages and Abscessus excised phages can be engineered to become lytic.  Excised phages resemble cluster P or N, Abscessus infected by cluster A3\\
+
+Review Kclust and MMseq2 for clustering sequences \\
+
+Check for non synonomous mutations in presence of clustered gene
 
 
 %----------------------------------------------------------------------------------------
