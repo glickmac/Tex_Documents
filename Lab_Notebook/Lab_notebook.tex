@@ -92,6 +92,7 @@
 \newexperiment{VF_HMM}{Identifying Virulence Factors in Phages}
 \newexperiment{GRAB}{Genomic Retrieval and BLAST Database Creation}
 \newexperiment{Active_Prophage}{Classifying predicted prophages as active or degraded}
+\newexperiment{CLSI_Database}{Creation of rpoB, HSP65, and 16S Databases}
 %\newexperiment{shorthand}{Description of the experiment}
 
 %---------------------------------------------------------------------------------------
@@ -153,8 +154,6 @@ makeblastdb -in Combined_VF.faa -dbtype prot -out Combined_VF -title "Combined_V
 blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined_VF -out results.txt
 -outfmt 6 -query phage_proteins.faa
 \end{verbatim}
-
-
 
 
 \begin{lstlisting}
@@ -238,10 +237,6 @@ roary -e --maft -p 8 *.gff
 \end{verbatim}
 
 
-
-
-
-
 %----------------------------------------------------------------------------------------
 
 \labday{Week of 12 March 2018}
@@ -277,7 +272,107 @@ Additional Take-Aways: Portal genes may be targets of bacterial resistance to ph
 
 Review Kclust and MMseq2 for clustering sequences \\
 
-Check for non synonomous mutations in presence of clustered gene
+Check for non synonomous mutations in presence of clustered gene \\
+
+Installed MMSeqs2 for sequence clustering
+
+Downloaded viral HMMs from \href{http://eggnogdb.embl.de/#/app/viruses}{EggNog 4.5}  |  \href{http://vogdb.org/download}{VOGDB}  | \href{http://dmk-brain.ecn.uiowa.edu/pVOGs/downloads.html}{pVOG} \\
+
+\textbf{Process to Filter Viral Lysogeny HMMs from Pfam}
+
+Split the complete Pfam database and rename each file to the Pfam ID 
+
+\begin{verbatim}
+python -c "import sys
+for i, c in enumerate(sys.stdin.read().split('//')):
+    open('out' + str(i), 'w').write(c)" < Pfam.hmm
+\end{verbatim}
+
+Removed empty first space from Split:
+\begin{verbatim}
+for f in *; do grep . $f > $f.hmm; done;
+\end{verbatim}
+
+Rename HMMs by Families Identifiers (3rd line of HMMs):
+\begin{verbatim}
+for f in *.hmm; 
+do 
+	output=$(awk 'NR == 3 {print $2}' "$f" | cut -f1 -d '.')
+	mv "$f" "$output".hmm
+done
+\end{verbatim}
+
+Filter HMMs by those present in list:
+\begin{verbatim}
+while read file
+do
+	mv -v -i "$file".hmm /matched/
+done < File_with_names.txt
+\end{verbatim}
+
+Format filtered hmms for search against combined lysogenic profiles \\
+\textit{Note: Needed to add ending '//' to hmm files to hmmpress effectively}
+
+Perform HMM Search and Create Table Separated
+\begin{verbatim}
+hmmsearch --tblout [table].txt [model].hmm [sequences].fasta > /dev/null
+
+## Convert tblout to table
+chmod +x convert_hmm_tblout_to_tab_seperated_table.sh
+
+./convert_hmm_tblout_to_tab_seperated_table.sh -t [table].txt 
+\end{verbatim}
+
+
+\experiment{CLSI_Database}
+
+\textbf{Query:}
+\begin{verbatim}
+(("Mycobacterium"[Organism] OR ("Mycobacterium"[Organism] 
+OR Mycobacterium[All Fields])) AND rpoB[Title]) AND 
+(bacteria[filter] AND biomol_genomic[PROP] AND 
+ddbj_embl_genbank[filter] AND ("500"[SLEN] : "5000"[SLEN]))
+\end{verbatim}
+
+Muscle Sequence aligner downloaded via bioconda
+
+usage:
+More usage examples at \href{http://www.drive5.com/muscle/muscle.html}{Drive5}
+
+
+\begin{verbatim}
+muscle -msf -in seqs.fa -out seqs.msf
+\end{verbatim}
+
+
+%----------------------------------------------------------------------------------------
+
+\labday{Week of 26 March 2018}
+
+\experiment{Active_Prophage}
+
+Thought: determine if focued kmer profile for mycobacteriophage would be ammendable.
+
+\begin{verbatim}
+for f in Pfam_Viral_HMMs/*.hmm; do filename=$(echo "${f\%\%.*}"); hmmsearch --tblout $filename.txt $f combined_lysogenic_phages_proteins.fasta > /dev/null; done;
+\end{verbatim}
+
+Move output to new folder titled SearchOutput and move into active directory
+
+\begin{verbatim}
+for f in Search_Output/*.txt; do ./convert_hmm_tblout_to_tab_seperated_table.sh -t $f; done;
+\end{verbatim}
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\labday{Week of 9 April 2018}
+
+Get FNA files for Species and Subspeices
+
+
 
 
 %----------------------------------------------------------------------------------------

@@ -7,3 +7,6 @@
 \contentsline {experiment}{\numberline {1}Genomic Retrieval and BLAST Database Creation}{4}{experiment.3.1}
 \contentsline {chapter}{\nonumberline Week of 19 March 2018}{5}{chapter*.5}
 \contentsline {experiment}{\numberline {1}Classifying predicted prophages as active or degraded}{5}{experiment.4.1}
+\contentsline {experiment}{\numberline {2}Creation of rpoB, HSP65, and 16S Databases}{6}{experiment.4.2}
+\contentsline {chapter}{\nonumberline Week of 26 March 2018}{7}{chapter*.6}
+\contentsline {experiment}{\numberline {1}Classifying predicted prophages as active or degraded}{7}{experiment.5.1}
