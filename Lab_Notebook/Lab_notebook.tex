@@ -370,9 +370,43 @@ for f in Search_Output/*.txt; do ./convert_hmm_tblout_to_tab_seperated_table.sh 
 
 \labday{Week of 9 April 2018}
 
-Get FNA files for Species and Subspeices
+\experiment{GRAB}
+
+Update Database Process
+
+\begin{itemize}
+
+\item Download NCBI Linages from \href{https://gitlab.com/zyxue/ncbitax2lin-lineages/blob/master/lineages-2018-03-12.csv.gz}{Here} as of March 12th. 
+\item Download Assembly Summary 
+
+\begin{verbatim}
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/assembly_summary.txt
+\end{verbatim}
+
+\item Filter Taxa Linage by Kingdom 
+
+The script Filtertaxlinage.R filters both the NCBI taxa lineages and the assembly summary files to include relevant information. \textbf{Note:} included no.rank2 as column in taxa lineages to include strain level identity. 
+
+\end{itemize}
+
+Updating GRAB to include filtering by Strain Level
 
 
+
+
+%----------------------------------------------------------------------------------------
+
+\labday{Week of 16 April 2018}
+
+\experiment{VF_HMM}
+
+Blasted VF Database against Self to identify redundant records between VFDB and Patric VF
+
+
+\begin{verbatim}
+blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined_VF -out results.txt 
+ -outfmt 6 -query all_viral_protein.faa 
+\end{verbatim}
 
 
 %----------------------------------------------------------------------------------------
