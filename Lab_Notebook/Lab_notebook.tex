@@ -306,7 +306,7 @@ Filter HMMs by those present in list:
 \begin{verbatim}
 while read file
 do
-	mv -v -i "$file".hmm /matched/
+	mv -v -i "$file".hmm matched/
 done < File_with_names.txt
 \end{verbatim}
 
@@ -407,6 +407,8 @@ Blasted VF Database against Self to identify redundant records between VFDB and 
 blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined_VF -out results.txt 
  -outfmt 6 -query all_viral_protein.faa 
 \end{verbatim}
+
+
 
 
 %----------------------------------------------------------------------------------------
