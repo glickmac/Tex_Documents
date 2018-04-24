@@ -14,3 +14,6 @@
 \contentsline {experiment}{\numberline {1}Genomic Retrieval and BLAST Database Creation}{8}{experiment.6.1}
 \contentsline {chapter}{\nonumberline Week of 16 April 2018}{9}{chapter*.8}
 \contentsline {experiment}{\numberline {1}Identifying Virulence Factors in Phages}{9}{experiment.7.1}
+\contentsline {chapter}{\nonumberline Week of 23 April 2018}{10}{chapter*.9}
+\contentsline {experiment}{\numberline {1}Identifying Virulence Factors in Phages}{10}{experiment.8.1}
+\contentsline {experiment}{\numberline {2}Viral Contig Identification Study}{10}{experiment.8.2}
