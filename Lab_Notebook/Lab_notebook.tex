@@ -421,13 +421,40 @@ Established baseline presence of virulence genes in phage genomes.
 Next steps: find number of virulence factors in vHMM contigs and perform Chi-square testing. 
 
 
-\experiment{CAMI_Filter}
+%----------------------------------------------------------------------------------------
+
+\labday{Week of 30 April 2018}
+
+\experiment{CLSI_Database}
+
+Downloading rpoB data from NCBI Nucleotide (Copy and Paste into Search Window) \\
+
+1780 Sequences as of May 1st, 2018
+
+\begin{verbatim}
+(("Mycobacterium"[Organism] OR ("Mycobacterium"[Organism]
+OR Mycobacterium[All Fields])) AND rpoB[Title]) AND
+(bacteria[filter] AND biomol_genomic[PROP] AND
+ddbj_embl_genbank[filter] AND ("500"[SLEN] : "5000"[SLEN]))
+\end{verbatim}
+
+
+Downloading HSP65 data from NCBI Nucleotide (Copy and Paste into Search Window) \\
+
+1710 Sequences as of May 1st, 2018
+
+\begin{verbatim}
+(("Mycobacterium"[Organism] OR ("Mycobacterium"[Organism]
+OR Mycobacterium[All Fields])) AND hsp65[Title]) AND
+(bacteria[filter] AND biomol_genomic[PROP] AND
+ddbj_embl_genbank[filter] AND ("400"[SLEN] : "5000"[SLEN]))
+\end{verbatim}
 
 
 
+Downloading \href{https://www.arb-silva.de/no_cache/download/archive/release_132/Exports/}{Silva-ARB Database}: download SilvaSSUParctaxsilvatrunc.fasta.gz \\
 
-
-
+See \href{https://www.arb-silva.de/documentation/release-132/}{Silva Release} information
 
 
 

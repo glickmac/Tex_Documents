@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 MAY 2018 13:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 MAY 2018 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Lab_notebook.tex
-(./Lab_notebook.tex
+**Lab_Status.tex
+(./Lab_Status.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(./labbook.cls
+(/usr/local/texlive/2017/texmf-dist/tex/latex/labbook/labbook.cls
 Document Class: labbook 2003/05/20 v1.1 LaTeX2e labbook document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2017/04/13 v3.23 KOMA-Script document class (book)
@@ -134,10 +134,10 @@ Class scrbook Info: Redefining `\numberline' on input line 6000.
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write3
-\openout3 = `Lab_notebook.idx'.
+\openout3 = `Lab_Status.idx'.
 
 
-Writing index file Lab_notebook.idx
+Writing index file Lab_Status.idx
 \FK@toks@=\toks15
 \c@fk@commasep@argnumber=\count89
 \c@fk@atdashsep@argnumber=\count90
@@ -357,8 +357,8 @@ Package color Info: Redefining color red on input line 66.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./Lab_notebook.aux)
-\openout1 = `Lab_notebook.aux'.
+(./Lab_Status.aux)
+\openout1 = `Lab_Status.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
 LaTeX Font Info:    ... okay on input line 101.
@@ -389,9 +389,9 @@ LaTeX Info: Redefining \ref on input line 101.
 LaTeX Info: Redefining \pageref on input line 101.
 LaTeX Info: Redefining \nameref on input line 101.
 
-(./Lab_notebook.out) (./Lab_notebook.out)
+(./Lab_Status.out) (./Lab_Status.out)
 \@outlinefile=\write4
-\openout4 = `Lab_notebook.out'.
+\openout4 = `Lab_Status.out'.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -438,7 +438,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2
 
-] (./Lab_notebook.toc
+] (./Lab_Status.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -447,7 +447,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
 )
 \tf@toc=\write5
-\openout5 = `Lab_notebook.toc'.
+\openout5 = `Lab_Status.toc'.
 
  [3
 
@@ -471,209 +471,60 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-
-Overfull \hbox (9.6162pt too wide) in paragraph at lines 132--133
-\OT1/cmr/m/n/10.95 Downloaded phage pro-tein data search-ing by tax-on-omy from
- Unipro-t/TrEmbL. Dowloaded
- []
-
-
-Overfull \hbox (53.13684pt too wide) in paragraph at lines 157--157
-[]\OT1/cmtt/m/n/10.95 makeblastdb -in Combined_VF.faa -dbtype prot -out Combine
-d_VF -title "Combined_VF"[] 
- []
-
-
-Overfull \hbox (24.3934pt too wide) in paragraph at lines 157--157
-[]\OT1/cmtt/m/n/10.95 blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined
-_VF -out results.txt[] 
- []
-
-[1
-
-]
-chapter without number
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 174.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
- [2
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
 
-] [3]
-chapter without number
-[4
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+[1
 
 ]
-chapter without number
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-
- []
-
-[5
-
-] [6]
-chapter without number
-
-Overfull \hbox (507.28317pt too wide) in paragraph at lines 359--359
-[]\OT1/cmtt/m/n/10.95 for f in Pfam_Viral_HMMs/*.hmm; do filename=$(echo "${f\%
-\%.*}"); hmmsearch --tblout $filename.txt $f combined_lysogenic_phages_proteins
-.fasta > /dev/null; done;[] 
- []
-
-
-Overfull \hbox (110.62372pt too wide) in paragraph at lines 365--365
-[]\OT1/cmtt/m/n/10.95 for f in Search_Output/*.txt; do ./convert_hmm_tblout_to_
-tab_seperated_table.sh -t $f; done;[] 
- []
-
-[7
-
-]
-chapter without number
-
-Overfull \hbox (51.76846pt too wide) in paragraph at lines 385--385
- []\OT1/cmtt/m/n/10.95 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria
-/assembly_summary.txt[] 
- []
-
-[8
-
-]
-chapter without number
-
-Overfull \hbox (24.3934pt too wide) in paragraph at lines 410--410
-[]\OT1/cmtt/m/n/10.95 blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined
-_VF -out results.txt[] 
- []
-
-[9
-
-]
-chapter without number
-[10
-
-]
-chapter without number
-
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
-
- []
-
-[11
-
-]
-chapter without number
-[12
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--494
-
- []
-
-[13pdfTeX warning (ext4): destination with the same identifier (name{table.10.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.506 \newpage
-              ]
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--512
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--512
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 510--512
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
-[14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
- (./Lab_notebook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 521.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
-Package rerunfilecheck Info: File `Lab_notebook.out' has not changed.
-(rerunfilecheck)             Checksum: D9AC39B36AA9C2B028CE9C99437FE5F6;1533.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 521.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+ (./Lab_Status.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package rerunfilecheck Info: File `Lab_Status.out' has not changed.
+(rerunfilecheck)             Checksum: E4A7FE480B3F30A5F1AE6983EBC42CCA;511.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 9304 strings out of 492995
- 149137 string characters out of 6132704
- 463868 words of memory out of 5000000
- 12710 multiletter control sequences out of 15000+600000
- 11320 words of font info for 40 fonts, out of 8000000 for 9000
+ 9072 strings out of 492995
+ 146871 string characters out of 6132704
+ 453868 words of memory out of 5000000
+ 12533 multiletter control sequences out of 15000+600000
+ 10200 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,9n,68p,8859b,1724s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,8n,68p,8857b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Lab_notebook.pdf (18 pages, 166928 bytes).
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Lab_Status.pdf (6 pages, 106852 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
