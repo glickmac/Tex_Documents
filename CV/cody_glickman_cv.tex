@@ -1,0 +1,250 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{black}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+%\usepackage{hyperref}
+\usepackage{filemod}
+\usepackage{xstring}
+
+\linespread{1.0}
+
+\def\FormatName#1{%
+  \IfSubStr{#1}{Glickman}{\textbf{#1}}{#1}%
+}
+
+% personal data
+\name{Cody Glickman}{Glickman}
+\address{Test Building}{7901 E Belleview Ave Apt 472}{Englewood, CO 80111}
+\phone[mobile]{+1~(847)~477~3625}
+\extrainfo{Last Updated: \filemodprintdate{\jobname}}
+\email{glickman.cody@gmail.com}
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[0.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+\newcommand{\cvreference}[7]{%
+    \textbf{#1}\newline% Name
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle
+
+\vspace*{-10mm}
+
+\section{Education}
+\cventry{August 2014--Present}{Doctor of Philosophy in Computational Bioscience}{University of Colorado Anschutz}{Aurora, CO}{4.0/4.0}{Supervisor: Michael Strong}
+\cventry{August 2009--June 2013}{Bachelor of Science in Molecular, Cellular, and Developmental Biology}{University of Colorado Boulder}{Boulder, CO}{4.0/4.0}{}
+
+
+\section{Experience}
+\subsection{Research}
+\cventry{Feburary 2013--Feburary 2015}{Research Assistant}{MIT, \normalfont{Office of Digital Learning and MITx}}{Cambridge, MA}{}{%
+\begin{itemize}%
+    \item Investigated teacher enrollment in HarvardX and MITx courses in order to redefine the target audience of MOOCs
+    \item Distilled tracking log information from the edX platform into informative features about student behavior and performance
+    \item Adapted Latent Dirichlet Allocation (LDA) from natural language processing to uncover behavioral patterns in Massive Open Online Courses (MOOCs) and accurately predict student drop out
+\end{itemize}}\vspace*{1mm}
+\cventry{November 2013--May 2014}{Research Assistant}{Harvard University, \normalfont{HarvardX}}{Cambridge, MA}{}{%
+\begin{itemize}%
+    \item Explored the impact of spaced study sessions (inspired by spaced practice phenomenon)  in HarvardX courses
+\end{itemize}}\vspace*{1mm}
+
+\subsection{Professional}
+\cventry{June 2015--August 2016}{Junior Data Scientist}{Jump Trading, \normalfont{Vendor Data Group}}{Chicago, IL}{}{%
+\begin{itemize}%
+    \item Communicated internally and externally to understand needs, identify opportunities, diagnose problems, and maintain reliability
+    \item Constructed frameworks and pipelines to analyze data from a variety of vendors to automatically create and update security master, corporate actions, pricing and entity master data
+\end{itemize}}\vspace*{1mm}
+\cventry{March 2015--June 2015}{Educational Technology Consultant}{Davidson College, \normalfont{DavidsonX and DavidsonNext}}{Davidson, NC}{}{%
+\begin{itemize}%
+    \item Automated data processing for 5 DavidsonX Massive Open Online Courses (MOOCs) and 64 DavidsonNext blended AP courses
+\end{itemize}}\vspace*{1mm}
+\cventry{June 2012--August 2012}{YouTube Analytics Intern}{Google, \normalfont{Associate Product Manager (APM) Internship}}{Zurich, Switzerland}{}{%
+\begin{itemize}%
+    \item Managed a team of 12 to launch estimated time watched and metric comparisons across the world
+    \item Designed initial draft of playlist analytics for YouTube's curators
+    \item Collaborated with numerous teams in YouTube to deal with issues concerning publicity, privacy, accessibility and discovery
+\end{itemize}}\vspace*{1mm}
+\cventry{June 2011--August 2011}{Local Search Quality Intern}{Google, \normalfont{Building Opportunity in Leader Development (BOLD) Internship}}{Mountain View, CA}{}{%
+\begin{itemize}%
+    \item Programmed tools for large-scale data manipulation and analysis to expedite and improve spam detection in Google Places
+    \item Created and administered training documents, videos, exercises, and workshops globally for both R and Google BigQuery
+\end{itemize}}\vspace*{1mm}
+\cventry{June 2010--August 2010}{Web Developer \& Team Representative at el Tecnol\'{o}gico de Monterrey}{MISTI Mexico, \normalfont{Iniciativa OCW}}{Mexico City, Mexico}{}{%
+\begin{itemize}%
+    \item Provided extra resources for students at Mexican universities by building a website to map MIT's online material to their courses
+\end{itemize}}\vspace*{1mm}
+
+\subsection{Teaching}
+\cventry{January 2013--May 2014}{6.933 Founder's Journey Teaching Assistant}{MIT, \normalfont{EECS Department}}{Cambridge, MA}{}{%
+\begin{itemize}%
+    \item Founded and directed an initiative to help students offset early expenses in evaluating their ideas by awarding monetary grants
+    \item Mentored students and provided feedback on their ideas in order to hone their entrepreneurial skills
+\end{itemize}}\vspace*{1mm}
+\cventry{June 2013--August 2013}{Technical Assistant}{MIT, \normalfont{Global Startup Labs formerly known as AITI}}{Bangalore, India}{}{%
+\begin{itemize}%
+    \item Taught 32 India university students Ruby on Rails and the fundamentals of web development
+    \item Guided 10 teams as they developed prototypes and pitched to local venture capitalists and accelerators
+\end{itemize}}\vspace*{1mm}
+\cventry{September 2010--December 2010}{8.01 Classical Mechanics Teaching Assistant}{MIT, \normalfont{Physics Department \& Experimental Study Group (ESG)}}{Cambridge, MA}{}{%
+\begin{itemize}%
+    \item Assisted students during class and office hours by working through problems and answering questions
+    \item Taught math review sessions that went over many difficult math concepts in physics to help students who were struggling
+\end{itemize}}\vspace*{1mm}
+
+
+\section{Leadership}
+
+% \cventry{September 2012--June 2013}{GEL Year One (GEL1)}{MIT, \normalfont{Bernard M. Gordon MIT Engineering Leadership Program (GELP)}}{Cambridge, MA}{}{%
+% \begin{itemize}
+%     \item Completed the GELP year one curriculum and group activities on the fundamentals of engineering leadership theory
+% \end{itemize}
+% }
+\cventry{May 2012--May 2014}{President}{MIT, \normalfont{Eta Kapp Nu (HKN) Honor Society for EECS}}{Cambridge, MA}{}{%
+\begin{itemize}%
+    \item Managed MIT's top academic EECS students to host several large events and services including tutoring and course reviews
+\end{itemize}}\vspace*{1mm}
+\cventry{August 2011--May 2014}{Member \& Student Lounge Committee Leader}{MIT, \normalfont{Undergraduate Student Advisory Group in EECS (USAGE)}}{Cambridge, MA}{}{%
+\begin{itemize}%
+    \item Led efforts to design and build a new student lounge for EECS undergraduate and masters students
+    \item Worked with EECS students to represent student interests on issues including new degree requirements and research programs
+\end{itemize}}\vspace*{1mm}
+\cventry{July 2011}{MIT Student Ambassador}{Ameson Chinese Elite Program}{Beijing, China}{}{%
+\begin{itemize}%
+    \item Represented MIT in panel discussions about peacekeeping, terrorism, and new energy
+\end{itemize}}\vspace*{1mm}
+\cventry{January 2011}{Team Leader}{MIT, \normalfont{6.470 Web Programming Competition}}{Cambridge, MA}{}{%
+\begin{itemize}%
+    \item Built a resume editor and management system that won Utility, HTML5, and audience choice awards, totaling \$2000 in prizes
+\end{itemize}}\vspace*{1mm}
+
+\section{Honors}
+\subsection{Fellowships \& Scholarships}
+\cvlistitem{NSF Graduate Research Fellow\hfill 2015}
+\cvlistitem{Stanford Enhancing Diversity in Graduate Education (EDGE) Doctoral Fellow\hfill 2015}
+\cvlistitem{ACM Richard Tapia Scholar\hfill 2015}
+\cvlistitem{MITx Fellow\hfill 2013}
+\cvlistitem{Google Build Opportunities for Leadership \& Development (BOLD) Immersion Scholar\hfill 2011}
+\cvlistitem{Quest Scholar\hfill 2010}
+\cvlistitem{MIT Club of Northern New Jersey Scholar\hfill 2010}
+
+\subsection{Awards}
+\cvlistitem{Facebook Hardware \& Software Systems Research Award\hfill 2018}
+\cvlistitem{Stanford School of Engineering Diversity Recruitment Award\hfill 2016}
+\cvlistitem{MIT Industrial Advisory Council for the Office of Minority Education (IACME) Student Prize\hfill 2015}
+\cvlistitem{MIT EECS Paul Penfield Student Service Award\hfill 2014}
+\cvlistitem{Google Patent Award\hfill 2012}
+
+\subsection{Professional Memberships}
+\cvlistitem{MIT Gordon Engineering Leadership (GEL) Program GEL1\hfill 2013}
+\cvlistitem{Tau Beta Pi (TBP) National Engineering Honor Society\hfill 2013}
+\cvlistitem{IEEE Eta Kappa Nu (HKN) Honor Society\hfill 2012}
+% \cvlistitem{National Society Collegiate Scholars (NSCS)\hfill 2010}
+
+
+\section{References}
+\cvdoublecolumn{\cvreference{Isaac Chuang}
+    {Professor of Electrical Engineering and Computer Science\newline Professor of Physics\newline Senior Associate Dean of Digital Learning}
+    {Massachusetts Institute of Technology}
+    {}
+    {Cambridge, MA 02139}
+    {\href{mailto:ichuang@mit.edu}{ichuang@mit.edu}}
+    {617-253-1692}\\[1em]
+    \cvreference{Sanjay Sarma}
+    {Professor of Mechanical Engineering\newline Vice President for Open Learning}
+    {Massachusetts Institute of Technology}
+    {}
+    {Cambridge, MA 02139}
+    {\href{mailto:sesarma@mit.edu}{sesarma@mit.edu}}
+    {617-253-1925}
+    }
+    {\cvreference{Angela Duckworth}
+    {Professor of Psychology\newline Founder and Scientific Director of the Character Lab\newline Faculty Co-Director of Wharton People Analytics}
+    {University of Pennsylvania}
+    {}
+    {Philadelphia, PA 19104}
+    {\href{mailto:aduckworth@characterlab.org}{aduckworth@characterlab.org}}
+    {215-898-1339}\\[1em]
+    \cvreference{Anantha Chandrakasan}
+    {Professor of Electrical Engineering and Computer Science\newline Department Head}
+    {Massachusetts Institute of Technology}
+    {}
+    {Cambridge, MA 02139}
+    {\href{mailto:anantha@mtl.mit.edu}{anantha@mtl.mit.edu}}
+    {617-253-4601}
+    }
+
+
+% \section{Conference Activity/Participation}
+% \cvlistitem{MIT Learning International Networks Consortium (LINC)\hfill 2016}
+% \cvlistitem{Harvard-MIT Online Learning Summit\hfill 2015}
+% \cvlistitem{American Educational Research Association (AERA) Annual Meeting\hfill 2015}
+% \cvlistitem{ACM Conference on Learning at Scale\hfill 2015}
+% \cvlistitem{ACM Richard Tapia Celebration of Diversity in Computing Conference\hfill 2015}
+% \cvlistitem{MIT Learning International Networks Consortium (LINC)\hfill 2013}
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{cv}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\end{document}
+
+
+%% end of file `template.tex'.

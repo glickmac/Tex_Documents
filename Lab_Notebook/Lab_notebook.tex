@@ -456,6 +456,20 @@ Downloading \href{https://www.arb-silva.de/no_cache/download/archive/release_132
 
 See \href{https://www.arb-silva.de/documentation/release-132/}{Silva Release} information
 
+%----------------------------------------------------------------------------------------
+
+\labday{Week of 7 May 2018}
+
+\experiment{VF_HMM}
+
+Compile against virome niches
+
+module load megahit 
+for f in *; do megahit -1 $f/*_1.fastq -2 $f/*_2.fastq -o $f/megahit_out;done;
+
+
+
+
 
 
 
