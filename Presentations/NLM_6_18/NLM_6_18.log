@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 MAY 2018 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 MAY 2018 14:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1191,7 +1191,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 28.
 
-(./NLM_6_18.nav) <../Figures/lablogo.png, id=57, 48.18pt x 49.1436pt>
+(./NLM_6_18.nav) <../Figures/lablogo.png, id=39, 48.18pt x 49.1436pt>
 File: ../Figures/lablogo.png Graphic file (type png)
 
 <use ../Figures/lablogo.png>
@@ -1207,228 +1207,155 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
  <../Figures/lablogo.png>] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 65.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 76.
+LaTeX Font Info:    No file OMScmss.fd. on input line 65.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 76.
+(Font)              for symbol `textbullet' on input line 65.
 
 [3
 
-] <../Figures/soil.jpeg, id=182, 4015.0pt x 2007.5pt>
-File: ../Figures/soil.jpeg Graphic file (type jpg)
-
-<use ../Figures/soil.jpeg>
-Package pdftex.def Info: ../Figures/soil.jpeg used on input line 99.
-(pdftex.def)             Requested size: 142.25475pt x 113.79767pt.
-
-Overfull \vbox (0.45352pt too high) detected at line 99
- []
-
-[4
-
- <../Figures/soil.jpeg>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 130.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 92.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 130.
+LaTeX Font Info:    Try loading font information for U+msb on input line 92.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 130.
+line 92.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) <../Figures/barr.png, id=213, 722.7pt x 542.025pt>
-File: ../Figures/barr.png Graphic file (type png)
- <use ../Figures/barr.png>
-Package pdftex.def Info: ../Figures/barr.png used on input line 130.
-(pdftex.def)             Requested size: 142.26576pt x 156.48848pt.
+) <../Figures/cholera.png, id=108, 1231.60126pt x 692.5875pt>
+File: ../Figures/cholera.png Graphic file (type png)
 
-Overfull \hbox (19.3517pt too wide) in paragraph at lines 130--130
+<use ../Figures/cholera.png>
+Package pdftex.def Info: ../Figures/cholera.png used on input line 92.
+(pdftex.def)             Requested size: 142.26071pt x 85.3579pt.
+
+Overfull \hbox (19.34665pt too wide) in paragraph at lines 92--92
 [][]  
  []
 
-[5
+[4
 
- <../Figures/barr.png>]
-<../Figures/ribosome.jpg, id=245, 949.5475pt x 1272.755pt>
-File: ../Figures/ribosome.jpg Graphic file (type jpg)
+ <../Figures/cholera.png>]
+<../Figures/phage.png, id=126, 1204.5pt x 1469.49pt>
+File: ../Figures/phage.png Graphic file (type png)
 
-<use ../Figures/ribosome.jpg>
-Package pdftex.def Info: ../Figures/ribosome.jpg used on input line 158.
-(pdftex.def)             Requested size: 142.2521pt x 156.4722pt.
+<use ../Figures/phage.png>
+Package pdftex.def Info: ../Figures/phage.png used on input line 119.
+(pdftex.def)             Requested size: 142.25475pt x 156.4872pt.
+ [5
+
+ <../Figures/phage.png>]
+<../Figures/uniprot.png, id=144, 481.8pt x 289.08pt>
+File: ../Figures/uniprot.png Graphic file (type png)
+
+<use ../Figures/uniprot.png>
+Package pdftex.def Info: ../Figures/uniprot.png used on input line 148.
+(pdftex.def)             Requested size: 85.35284pt x 85.35725pt.
  [6
 
- <../Figures/ribosome.jpg>]
-<../Figures/objective.png, id=276, 904.37875pt x 569.12625pt>
-File: ../Figures/objective.png Graphic file (type png)
+ <../Figures/uniprot.png>] [7
 
-<use ../Figures/objective.png>
-Package pdftex.def Info: ../Figures/objective.png used on input line 165.
-(pdftex.def)             Requested size: 256.06706pt x 170.71313pt.
- [7
+]
+<../Figures/HMM_Hit_Counts.jpg, id=181, 722.7pt x 722.7pt>
+File: ../Figures/HMM_Hit_Counts.jpg Graphic file (type jpg)
 
- <../Figures/objective.png>]
-<../Figures/mosaic.png, id=310, 1477.52pt x 1156.32pt>
-File: ../Figures/mosaic.png Graphic file (type png)
+<use ../Figures/HMM_Hit_Counts.jpg>
+Package pdftex.def Info: ../Figures/HMM_Hit_Counts.jpg used on input line 190.
+(pdftex.def)             Requested size: 142.26576pt x 142.26576pt.
 
-<use ../Figures/mosaic.png>
-Package pdftex.def Info: ../Figures/mosaic.png used on input line 188.
-(pdftex.def)             Requested size: 142.25964pt x 156.48463pt.
- [8
+<../Figures/Top_VF_Hit_Plot.jpg, id=182, 722.7pt x 722.7pt>
+File: ../Figures/Top_VF_Hit_Plot.jpg Graphic file (type jpg)
 
- <../Figures/mosaic.png (PNG copy)>]
-<../Figures/Filtered.png, id=342, 720.6925pt x 575.14874pt>
-File: ../Figures/Filtered.png Graphic file (type png)
+<use ../Figures/Top_VF_Hit_Plot.jpg>
+Package pdftex.def Info: ../Figures/Top_VF_Hit_Plot.jpg used on input line 190.
 
-<use ../Figures/Filtered.png>
-Package pdftex.def Info: ../Figures/Filtered.png used on input line 209.
-(pdftex.def)             Requested size: 156.48543pt x 142.2598pt.
+(pdftex.def)             Requested size: 170.71672pt x 170.71672pt.
 
-Overfull \hbox (2.8405pt too wide) in paragraph at lines 209--209
+Overfull \hbox (17.0718pt too wide) in paragraph at lines 190--190
 [][]  
  []
 
-<../Figures/unfiltered.png, id=343, 714.67pt x 581.17125pt>
-File: ../Figures/unfiltered.png Graphic file (type png)
+[8
 
-<use ../Figures/unfiltered.png>
-Package pdftex.def Info: ../Figures/unfiltered.png used on input line 209.
-(pdftex.def)             Requested size: 156.48634pt x 142.25961pt.
+ <../Figures/HMM_Hit_Counts.jpg> <../Figures/Top_VF_Hit_Plot.jpg>]
+<../Figures/All_Phages_BLAST_Percentage.jpg, id=199, 505.89pt x 505.89pt>
+File: ../Figures/All_Phages_BLAST_Percentage.jpg Graphic file (type jpg)
 
-Overfull \hbox (2.84142pt too wide) in paragraph at lines 209--209
-[][]  
- []
+<use ../Figures/All_Phages_BLAST_Percentage.jpg>
+Package pdftex.def Info: ../Figures/All_Phages_BLAST_Percentage.jpg used on inp
+ut line 202.
+(pdftex.def)             Requested size: 142.26576pt x 142.26576pt.
 
+<../Figures/All_Phages_Percentage.jpg, id=200, 505.89pt x 505.89pt>
+File: ../Figures/All_Phages_Percentage.jpg Graphic file (type jpg)
 
-Overfull \vbox (4.43903pt too high) detected at line 209
- []
+<use ../Figures/All_Phages_Percentage.jpg>
+Package pdftex.def Info: ../Figures/All_Phages_Percentage.jpg used on input lin
+e 202.
+(pdftex.def)             Requested size: 142.26576pt x 142.26576pt.
+ [9
 
-[9
+ <../Figures/All_Phages_BLAST_Percentage.jpg> <../Figures/All_Phages_Percentage
+.jpg>]
+<../Figures/Top_Phages_Percentage_BLAST.jpg, id=217, 722.7pt x 722.7pt>
+File: ../Figures/Top_Phages_Percentage_BLAST.jpg Graphic file (type jpg)
 
- <../Figures/Filtered.png> <../Figures/unfiltered.png>] [10
+<use ../Figures/Top_Phages_Percentage_BLAST.jpg>
+Package pdftex.def Info: ../Figures/Top_Phages_Percentage_BLAST.jpg used on inp
+ut line 213.
+(pdftex.def)             Requested size: 142.26576pt x 142.26576pt.
 
-] [11
+<../Figures/Top_Phages_Percentage_HMM.jpg, id=218, 722.7pt x 722.7pt>
+File: ../Figures/Top_Phages_Percentage_HMM.jpg Graphic file (type jpg)
+
+<use ../Figures/Top_Phages_Percentage_HMM.jpg>
+Package pdftex.def Info: ../Figures/Top_Phages_Percentage_HMM.jpg used on input
+ line 213.
+(pdftex.def)             Requested size: 142.26576pt x 142.26576pt.
+ [10
+
+ <../Figures/Top_Phages_Percentage_BLAST.jpg> <../Figures/Top_Phages_Percentage
+_HMM.jpg>] [11
 
 ] [12
 
 ]
-[13
-
-] <../Figures/Recall.png, id=499, 1182.4175pt x 673.51625pt>
-File: ../Figures/Recall.png Graphic file (type png)
-
-<use ../Figures/Recall.png>
-Package pdftex.def Info: ../Figures/Recall.png used on input line 329.
-(pdftex.def)             Requested size: 170.71544pt x 142.26474pt.
-
-Overfull \hbox (17.07051pt too wide) in paragraph at lines 329--329
- [] 
- []
-
-<../Figures/Precision.png, id=500, 1183.42125pt x 672.5125pt>
-File: ../Figures/Precision.png Graphic file (type png)
-
-<use ../Figures/Precision.png>
-Package pdftex.def Info: ../Figures/Precision.png used on input line 329.
-(pdftex.def)             Requested size: 170.7159pt x 142.25795pt.
-
-Overfull \hbox (17.07097pt too wide) in paragraph at lines 329--329
- [] 
- []
-
-[14
-
- <../Figures/Recall.png> <../Figures/Precision.png>] [15
-
-] [16
-
-] [17
-
-] [18
-
-]
-[19
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 444.
-
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [20
-
-]
-[21
-
-] <../Figures/dna.png, id=749, 602.25pt x 516.93124pt>
-File: ../Figures/dna.png Graphic file (type png)
-
-<use ../Figures/dna.png>
-Package pdftex.def Info: ../Figures/dna.png used on input line 475.
-(pdftex.def)             Requested size: 142.26393pt x 113.8041pt.
- [22
-
- <../Figures/dna.png>]
-<../Figures/gc.png, id=781, 673.51625pt x 673.51625pt>
-File: ../Figures/gc.png Graphic file (type png)
- <use ../Figures/gc.png>
-Package pdftex.def Info: ../Figures/gc.png used on input line 497.
-(pdftex.def)             Requested size: 142.26474pt x 99.58429pt.
-
-[23
-
- <../Figures/gc.png>]
-<../Figures/box_contigs.png, id=814, 821.0675pt x 183.68625pt>
-File: ../Figures/box_contigs.png Graphic file (type png)
-
-<use ../Figures/box_contigs.png>
-Package pdftex.def Info: ../Figures/box_contigs.png used on input line 515.
-(pdftex.def)             Requested size: 142.26071pt x 85.35995pt.
- [24
-
- <../Figures/box_contigs.png>]
-<../Figures/goals.png, id=846, 608.2725pt x 131.49126pt>
-File: ../Figures/goals.png Graphic file (type png)
-
-<use ../Figures/goals.png>
-Package pdftex.def Info: ../Figures/goals.png used on input line 541.
-(pdftex.def)             Requested size: 284.53302pt x 56.90529pt.
- [25
-
- <../Figures/goals.png>]
-<../Figures/Acknowledgements.png, id=881, 1587.9325pt x 858.20625pt>
+<../Figures/Acknowledgements.png, id=271, 1587.9325pt x 858.20625pt>
 File: ../Figures/Acknowledgements.png Graphic file (type png)
 
 <use ../Figures/Acknowledgements.png>
-Package pdftex.def Info: ../Figures/Acknowledgements.png used on input line 549
+Package pdftex.def Info: ../Figures/Acknowledgements.png used on input line 253
 .
 (pdftex.def)             Requested size: 312.9772pt x 227.62pt.
 
-Overfull \hbox (5.68733pt too wide) in paragraph at lines 549--549
+Overfull \hbox (5.68733pt too wide) in paragraph at lines 253--253
 [][]  
  []
 
 
-Overfull \vbox (3.18884pt too high) detected at line 549
+Overfull \vbox (3.18884pt too high) detected at line 253
  []
 
-[26
+[13
 
  <../Figures/Acknowledgements.png>]
 File: ../Figures/lablogo.png Graphic file (type png)
  <use ../Figures/lablogo.png>
-Package pdftex.def Info: ../Figures/lablogo.png used on input line 555.
+Package pdftex.def Info: ../Figures/lablogo.png used on input line 259.
 (pdftex.def)             Requested size: 56.90553pt x 56.90836pt.
- [27
+ [14
 
 ]
 \tf@nav=\write6
@@ -1440,14 +1367,14 @@ Package pdftex.def Info: ../Figures/lablogo.png used on input line 555.
 \tf@snm=\write8
 \openout8 = `NLM_6_18.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 560.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 560.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
 
 (./NLM_6_18.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 560.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 560.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `NLM_6_18.out' has not changed.
-(rerunfilecheck)             Checksum: 96A9188020A7B121130BC3060379B447;203.
+(rerunfilecheck)             Checksum: B23F9E412B23F5CE78A234F178069B29;195.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1458,25 +1385,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17864 strings out of 492995
- 334843 string characters out of 6132704
- 426261 words of memory out of 5000000
- 20908 multiletter control sequences out of 15000+600000
- 16616 words of font info for 46 fonts, out of 8000000 for 9000
+ 17754 strings out of 492995
+ 333507 string characters out of 6132704
+ 409432 words of memory out of 5000000
+ 20836 multiletter control sequences out of 15000+600000
+ 15475 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,56p,794b,756s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,56p,794b,765s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on NLM_6_18.pdf (27 pages, 3874918 bytes).
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
+Output written on NLM_6_18.pdf (14 pages, 1333434 bytes).
 PDF statistics:
- 987 PDF objects out of 1000 (max. 8388607)
- 883 compressed objects within 9 object streams
- 64 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
