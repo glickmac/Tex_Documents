@@ -12,14 +12,14 @@
 \def\et{{\it et al.}}
 
 
-\author{Cody Glickman \\ NLM 2018}
+\author{Cody Glickman and Michael Strong \\ NLM 2018}
 
 \title{Enrichment of Bacterial Virulence Factors in Bacteriophages}
 
 %\subtitle{}
 %\logo{}
 
-\date{ \includegraphics[height=2cm, width=2cm]{lablogo.png} \\ June 4th, 2018}
+\date{ \includegraphics[height=2cm, width=2cm]{lablogo.png} \\ June, 2018}
 %\subject{}
 \setbeamercovered{transparent}
 \setbeamertemplate{navigation symbols}{}
@@ -27,21 +27,7 @@
 
 \begin{document}
 	\maketitle
-	\begin{frame}{Outline}
-	\begin{block}{Introduction}
-	\end{block}
-	\vspace{-0.5cm}
-	\begin{block}{Baseline Virulence Factor Abundance}
-	\end{block}
-	\vspace{-0.5cm}
-	\begin{block}{Virulence Factors in Cystic Fibrosis Phages}
-	\end{block}
-	\vspace{-0.5cm}
-	\begin{block}{Virulence Factors in Gut with Clostridium Difficile}
-	\end{block}
-	\vspace{-0.5cm}
-	
-	\end{frame}
+
 	%--------------------------------------------------------------------------------------
 
 	
@@ -50,7 +36,7 @@
 
 	\begin{frame}{Virulence}
 		\begin{block}{Virulence Defined}
-		The capacity of a microorganism to proliferate despite the bodies defenses
+		The capacity of a microorganism to proliferate despite host defenses
 		\end{block}
 		
 		\begin{block}{Influences on Virulence}
@@ -65,7 +51,7 @@
 	\end{frame}
 	%--------------------------------------------------------------------------------------
 
-	\begin{frame}{Bacterial Virulence Factors Increases Pathogenesis}
+	\begin{frame}{Bacterial Virulence Factors Increase Pathogenesis}
 	\begin{columns}
 	\column{0.65\textwidth}
 	\begin{block}{Examples of Virulence Factors}
@@ -76,8 +62,8 @@
 		\end{itemize}
 	\end{block} 
 	
-	\begin{block}{Pathology from Virulence Factors}
-	Cholera toxin, dysentery, botulism, and food poisoning
+	\begin{block}{Diseases from Virulence Factors}
+	Cholera, dysentery, botulism, and food poisoning
 	\end{block}
 	
 
@@ -93,7 +79,7 @@
 	
 	%--------------------------------------------------------------------------------------
 	
-	\begin{frame}{Bacteriophages as a Genetic Reservoir of Virulence Factors}
+	\begin{frame}{Bacteriophages as a Genetic Reservoir \\ of Virulence Factors Genes}
 	\begin{columns}
 	\column{0.5\textwidth}
 	\begin{block}{Bacteriophages (Phages)}
@@ -101,28 +87,29 @@
 	\end{block}
 	
 	
-	\begin{block}{Bacteriophages and Pathology}
-	Toxins that cause cholera, dysentery, botulism, and food poisoning all derive from bacteriophage elements.
-	\end{block}
-		
-		
-	\begin{block}{Prior Studies}
-	Prior studies focus on bacteriophage relationship to disease causing bacteria
+	\begin{block}{Phages and Pathology}
+	Virulence Factors that cause cholera, dysentery, botulism, and food poisoning are carried on phage elements.
 	\end{block}
 	
 	\column{0.5\textwidth}
 	\includegraphics[height=5.5cm, width=5cm]{phage.png} \\
+	\hspace{0.5cm}	
 	\tiny{Novick, Richard, Plasmid (2003)}
 	\end{columns}
-		
+	
+	\begin{block}{Objective}
+	Characterize the abundance of bacterial virulence factors in phages
+	\end{block}
 	
 	\end{frame}
 
 	
-\section{Baseline Virulence Factor Abundance}
+\section{Establishing Baseline Virulence Factor Abundance}
 \subsection{}
 
-	\begin{frame}{Virulence Factor Data Acquisition}
+
+	%-----------------------------------------	
+	\begin{frame}{Data}
 	\begin{columns}
 	\column{0.5\textwidth}
 	\begin{block}{Virulence Protein Databases}
@@ -136,7 +123,6 @@
 		\item pFam \\ \tiny{Bateman, Alex, et al. Nucleic Acids Research (2004)}
 		\item \large{pVOG} \\ \tiny{Grazziotin, AL, et al. Nucleic Acids Research (2016)}
 	\end{itemize}
-		
 	\end{block}
 	
 	
@@ -147,97 +133,163 @@
 	\end{columns}
 	\end{frame}
 
-	
+	%-----------------------------------------	
 	\begin{frame}{Methods}
 	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{block}{BLAST Filters}
-	\begin{itemize}
-	\item evalue < 10e-5
-	\item pident >= 75
-	\end{itemize}
+	\column{0.7\textwidth}
+	\begin{block}{Sequence Annotation Methods}
+	BLAST vs \alert{HMM}
 	\end{block}
 	
-	\begin{block}{BLAST Results}
-	Initial: 1484868 Hits \\
-	Post-filtering: 5022 Hits
+	\begin{block}{Normalizing By Gene Count}
+	Hit Percentage = $P$ \\
+	Hit Count = $HC$ \\
+	Gene Count = $GC$ \\
+	\vspace{0.3cm}
+	\hspace{1.5cm}	
+	$P = {HC}/{GC}$
 	\end{block}
 	
-	\column{0.5\textwidth}
-	\begin{block}{HMM Filters}
-	\begin{itemize}
-	\item MSV filter
-	\item bias filter
-	\item Vit filter 
-	\item Fwd filter
-	\end{itemize}
+	\begin{block}{Filtering By Phage Abundance}
+	\alert{Streptococcus} phage: \\
+	Genera abundance greater than 30
 	\end{block}
 	
-	\begin{block}{HMM Results}
-	Post-filtering: 15389 Hits
-	\end{block}
+	
+	
+	\column{0.2\textwidth}
+	\hspace{-2cm}
+	\includegraphics[height=6cm, width=3cm]{Pipeline.png}
 
 	\end{columns}
 	\end{frame}
 	
-	\begin{frame}{Hit Count Distribution}
+	
+	%-----------------------------------------	
+	\begin{frame}{HMM Hit Distribution}
 	\begin{columns}
+	\column{0.6\textwidth}
+	% Need to place figure
+	\includegraphics[height=6cm, width=6cm]{Abundant_Phages_HMM_ID.jpg}
 	\column{0.5\textwidth}
-	\includegraphics[height=5cm, width=5cm]{HMM_Hit_Counts.jpg}
-	\column{0.5\textwidth}
-	\includegraphics[height=6cm, width=6cm]{Top_VF_Hit_Plot.jpg}
+	\begin{block}{MarR}
+	Domain involved in antibiotic resistance
+	\end{block}
+	\begin{block}{DivIC}
+	Part of sporulation process
+	\end{block}
+	\begin{block}{LysM}
+	General peptidoglycan function
+	\end{block}
 	\end{columns}
 	\end{frame}
 	
+	%-----------------------------------------	
+	\begin{frame}{Distribution of Hit Percentage in All Phages}
+	\centering
+	\includegraphics[height=7cm, width=7cm]{Abundant_Phages_Percentage.jpg}
 	
-	\begin{frame}{All Phages Distribution of VF Gene Percentages}
-	\begin{columns}
-	\column{0.5\textwidth}
-	\large{BLAST}
-	\includegraphics[height=5cm, width=5cm]{All_Phages_BLAST_Percentage.jpg}
-	\column{0.5\textwidth}
-	\large{HMM}
-	\includegraphics[height=5cm, width=5cm]{All_Phages_Percentage.jpg}
-	\end{columns}
 	\end{frame}
 	
-	\begin{frame}{Top Phage Distributions}
-	\begin{columns}
-	\column{0.5\textwidth}
-	\large{BLAST}
-	\includegraphics[height=5cm, width=5cm]{Top_Phages_Percentage_BLAST.jpg}
-	\column{0.5\textwidth}
-	\large{HMM}
-	\includegraphics[height=5cm, width=5cm]{Top_Phages_Percentage_HMM.jpg}
-	\end{columns}
+	%-----------------------------------------	
+	\begin{frame}{Abundant Phage Distributions by Genera Name}
+	\centering
+	\includegraphics[height=7cm, width=8cm]{Top_Phages_Plots.jpg}
+	
 	\end{frame}
 	
 	
 
-\section{Virulence Factors in Cystic Fibrosis Phages}
+\section{Virulence Factors in Clinical Viral Metagenome}
 \subsection{}
 
-	
+	%-----------------------------------------	
 	\begin{frame}{Clinical Data and Methodology}
-	\begin{block}{Data Source}
-	The data consists of 5 normal and 5 CF viromes
+	\begin{block}{Clinical Data Sources}
+	\begin{itemize}
+	\item \large{Virome from Cystic Fibrosis Patients} \\ \tiny{PRJNA39545}
+	\item \large{Virome from Clostridium difficile Patients} \\ \tiny{PRJEB22784}
+	\end{itemize}
+	\end{block}
+	\begin{block}{Clinical Data Pipeline}
+	\centering
+	\includegraphics[height=5cm, width=10cm]{Clinical_Pipeline.png}
 	\end{block}
 	\end{frame}
-
+	
+	%-----------------------------------------	
+	\begin{frame}{Cystic Fibrosis Virome Results}
+	\begin{columns}
+	\column{0.4\textwidth}
+	\hspace{2cm}
+	\begin{block}{Abundant Annotated Genera (>20 Contigs)}
+	\begin{itemize}
+	\item \alert{Streptococcus Phage}
+	\item Enterobacteria Phage
+	\item Staphylococcus Phage
+  \end{itemize}
+  \end{block}
+  
+  \begin{block}{Nonparametric Testing}
+  $H_o$: Samples == Baseline \\
+  \vspace{0.2cm}
+  $p =$ 0.487
+  \end{block}
 	
 	
+	
+	
+	\column{0.7\textwidth}
+	\centering
+	\includegraphics[height=7cm, width=6cm]{CF_Comparison.jpg}
+	
+	
+	\end{columns}
+	
+	\end{frame}
+	%-----------------------------------------
+  \begin{frame}{Clostridium difficile Virome Results}
+  \begin{columns}
+	\column{0.4\textwidth}
+	\hspace{2cm}
+	\begin{block}{Abundant Annotated Genera (>20 Contigs)}
+	\begin{itemize}
+	\item \alert{Salmonella Phage}
+	\item Pseudomonas Phage
+	\item Escherichia Phage
+	\item Enterobacteria Phage
+  \end{itemize}
+  \end{block}
+  
+  \begin{block}{Unequal Variance \\ Parametric Testing}
+  $H_o$: Samples == Baseline \\
+  \vspace{0.2cm}
+  $p =$ 0.09
+  \end{block}
+  
+  \column{0.7\textwidth}
+	\centering
+	\includegraphics[height=7cm, width=6cm]{CDif_Comparison.jpg}
+	
+	\end{columns}
+	
+	\end{frame}
 	
 \section{}
 
+	%-----------------------------------------	
 	\begin{frame}{Concluding Remarks}
 	\begin{columns}
-	\column{0.3\textwidth}
-	\begin{block}{Base line}
-	Established Baseline
+	\column{0.6\textwidth}
+	\begin{block}{Virulence Factor Abundance}
+	\includegraphics[height=7cm, width=6cm]{Top_Phages_Plots.jpg}
 	\end{block}
-	\column{0.3\textwidth}
-	\begin{block}{GRAB}
-	Viral GRAB will contribute to a focus on phages specific to lung infections
+	\column{0.5\textwidth}
+	\begin{block}{Clinical Virulence Distribution}
+	Trending enrichment of virulence hits in Salmonella phages in patients with Clostridium difficile infections
+	\end{block}
+	\begin{block}{Research in Progress}
+	Application to Non-Tuberculosis Mycobacterium infections in Cystic Fibrosis patients
 	\end{block}
 	
 	\end{columns}
@@ -246,19 +298,17 @@
 	
 	
 	
-	
-	\begin{frame}{}
-	\vspace{1cm}
-	{\includegraphics[height=8cm, width=11cm]{Acknowledgements.png} }
+	%-----------------------------------------	
+	\begin{frame}{Acknowledgements}
+	\centering
+	{\includegraphics[height=5cm, width=11cm]{Acknowledgements.png} }
 	\end{frame}
 	
-	
+	%-----------------------------------------	
 	\begin{frame}{Questions?}
 	\center
 	Cody Glickman \\ \includegraphics[height=2cm, width=2cm]{lablogo.png} \\ cody.glickman@ucdenver.edu \\ \alert{www.github.com/glickmac} \\ www.codyglickman.com
 	\end{frame}
-	
-
 
 
 \end{document}
