@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  11 MAY 2018 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 JUN 2018 11:17
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **Lab_Status.tex
 (./Lab_Status.tex
@@ -497,30 +496,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
 [2]
 chapter without number
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
 [3
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
+chapter without number
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+[4
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
  (./Lab_Status.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
-
-
-Package rerunfilecheck Warning: File `Lab_Status.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Lab_Status.out':
-(rerunfilecheck)             Before: E4A7FE480B3F30A5F1AE6983EBC42CCA;511
-(rerunfilecheck)             After:  90E94D4655A925440D7F820E537D4D5C;838.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 245.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package rerunfilecheck Info: File `Lab_Status.out' has not changed.
+(rerunfilecheck)             Checksum: 6EC4940F5D80DE1F7481E43161424D60;1168.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 9078 strings out of 492995
- 146937 string characters out of 6132704
- 453868 words of memory out of 5000000
- 12533 multiletter control sequences out of 15000+600000
+ 9092 strings out of 492995
+ 147123 string characters out of 6132704
+ 454868 words of memory out of 5000000
+ 12541 multiletter control sequences out of 15000+600000
  10200 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,8n,68p,8857b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -532,10 +528,10 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Lab_Status.pdf (7 pages, 108544 bytes).
+Output written on Lab_Status.pdf (8 pages, 110794 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

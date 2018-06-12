@@ -42,7 +42,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[idxtotoc,hyperref,openany]{labbook} % 'openany' here removes the gap page between days, erase it to restore this gap; 'oneside' can also be added to remove the shift that odd pages have to the right for easier reading
+\documentclass[idxtotoc,hyperref,openany,oneside]{labbook} % 'openany' here removes the gap page between days, erase it to restore this gap; 'oneside' can also be added to remove the shift that odd pages have to the right for easier reading
 
 \usepackage[ 
   backref=page,
@@ -355,13 +355,16 @@ muscle -msf -in seqs.fa -out seqs.msf
 Thought: determine if focued kmer profile for mycobacteriophage would be ammendable.
 
 \begin{verbatim}
-for f in Pfam_Viral_HMMs/*.hmm; do filename=$(echo "${f\%\%.*}"); hmmsearch --tblout $filename.txt $f combined_lysogenic_phages_proteins.fasta > /dev/null; done;
+for f in Pfam_Viral_HMMs/*.hmm; do filename=$(echo "${f\%\%.*}"); 
+hmmsearch --tblout $filename.txt $f combined_lysogenic_phages_proteins.fasta >  
+/dev/null; done;
 \end{verbatim}
 
 Move output to new folder titled SearchOutput and move into active directory
 
 \begin{verbatim}
-for f in Search_Output/*.txt; do ./convert_hmm_tblout_to_tab_seperated_table.sh -t $f; done;
+for f in Search_Output/*.txt; 
+do ./convert_hmm_tblout_to_tab_seperated_table.sh -t $f; done;
 \end{verbatim}
 
 
@@ -464,9 +467,10 @@ See \href{https://www.arb-silva.de/documentation/release-132/}{Silva Release} in
 
 Compile against virome niches
 
+\begin{verbatim}
 module load megahit 
 for f in *; do megahit -1 $f/*_1.fastq -2 $f/*_2.fastq -o $f/megahit_out;done;
-
+\end{verbatim}
 
 %----------------------------------------------------------------------------------------
 
@@ -475,16 +479,69 @@ for f in *; do megahit -1 $f/*_1.fastq -2 $f/*_2.fastq -o $f/megahit_out;done;
 
 NLP Twitter Info
 \\
+\begin{verbatim}
 consumer_key = "KjwOs3xP0egOG4zKzhAOIdrhP" 
 consumer_secret = "UzV7gRWvNtxLwj4u7Lgn3afhRwnkEk3MieEPaMXcJCCoUKaq5D"
 access_token = "4784605044-ulRZNSGDGjeTyponvwK26TqimbC6ayYcmptQGnX"
 access_secret = "D8yPVlZBXS2D79WLo8wx31YwqYH97S1bxIWUTdHHpt6Xw"
+\end{verbatim}
+
+\experiment{VF_HMM}
+
+Updating HMM Filtering Protocol
+
+Download Domains
+
+\begin{itemize}
+\item Get headers from files
+\item Add header 
+\begin{verbatim}
+awk '{ print $0 ".hmm" }' < Headers.txt > hmm_headers.txt
+\end{verbatim}
+\item Filter PFam Models
+\begin{verbatim}
+for file in $(cat hmm_headers.txt); do mv $file Virulence/$f; done
+\end{verbatim}
+
+\item Added backslashes for hmmpress and hmmsearch
+\begin{verbatim}
+for f in *.hmm; do echo -n "//" >> $f; done; 
+cat *.hmm > PFAM_Combined.hmm
+
+\end{verbatim}
+
+\end{itemize}
 
 
+%----------------------------------------------------------------------------------------
+\newexperiment{BRASS}{BRASS Asthmatic Microbiome Study}
 
+\labday{Week of 11 June 2018}
 
+\experiment{BRASS}
 
+BRASS Samples vary large, subsampled largest paired reads to shrink size of intermediates
 
+\begin{verbatim}
+reformat.sh in1=reads1.fq.gz in2=reads2.fq.gz 
+out=sampled1.fq.gz out2=sample2.fq.gz samplereadstarget=100000000
+
+\end{verbatim}
+
+BRASS Samples too large to complete run on local PC, running QIIME Dada2 script on cluster
+
+Making a manifest file for Qiime Demultiplexing
+\begin{verbatim}
+find /path/to/data -type f \( -iname "*.fastq.gz" \) >> 
+/path/to/manifest_prelim.txt
+\end{verbatim}
+Then run manifest spliter.py
+
+Running Qiime on cluster
+\begin{verbatim}
+module load qiime2
+source activate qiime2-2017.12
+\end{verbatim}
 
 
 \end{document}

@@ -8,3 +8,7 @@
 \contentsline {experiment}{\numberline {1}Genomic Retrieval and BLAST Database Creation}{3}{experiment.2.1}
 \contentsline {experiment}{\numberline {2}Identifying Virulence Factors in Phages}{3}{experiment.2.2}
 \contentsline {experiment}{\numberline {3}Creation of rpoB, HSP65, and 16S Databases}{3}{experiment.2.3}
+\contentsline {chapter}{\nonumberline June 1st, 2018}{4}{chapter*.4}
+\contentsline {experiment}{\numberline {1}Genomic Retrieval and BLAST Database Creation}{4}{experiment.3.1}
+\contentsline {experiment}{\numberline {2}Identifying Virulence Factors in Phages}{4}{experiment.3.2}
+\contentsline {experiment}{\numberline {3}Creation of rpoB, HSP65, and 16S Databases}{4}{experiment.3.3}
