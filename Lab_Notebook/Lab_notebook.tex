@@ -544,6 +544,27 @@ source activate qiime2-2017.12
 \end{verbatim}
 
 
-Dada2 processing removing a majority of reads (18S?!) trying a less stringent trhesholding for BRASS study
+Dada2 processing removing a majority of reads (18S?!) trying a less stringent thresholding for BRASS study
+
+\labday{Week of 25 June 2018}
+
+\experiment{BRASS}
+
+The dada2 filtering using qiime implemented max-ee filter which removed a large percent of the reads. Went from 95K to 6K. Removed MaxEE by setting to --p-max-ee Inf
+\\
+
+Rerunning BRASS Tables
+\begin{verbatim}
+module load qiime2
+source activate qiime2-2017.12
+
+bsub qiime dada2 denoise-paired --i-demultiplexed-seqs paired-end-demux.qza 
+--p-trunc-len-f 280 --p-trunc-len-r 279 --p-max-ee Inf --p-chimera-method 
+pooled --p-n-threads 0 --o-representative-sequences rep-seqs2.qza 
+--o-table table2.qza
+
+
+\end{verbatim}
+
 
 \end{document}

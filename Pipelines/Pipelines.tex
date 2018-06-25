@@ -95,6 +95,8 @@
 \newexperiment{CLSI_Database}{Creation of rpoB, HSP65, and 16S Databases}
 \newexperiment{CAMI_Filter}{Viral Contig Identification Study}
 \newexperiment{BRASS}{BRASS Asthmatic Microbiome Study}
+\newexperiment{gene_g}{Genome Gene Prediction}
+\newexperiment{gene_m}{Metagenomic Gene Prediction}
 %\newexperiment{shorthand}{Description of the experiment}
 
 %---------------------------------------------------------------------------------------
@@ -125,28 +127,97 @@
 %	LAB BOOK CONTENTS
 %----------------------------------------------------------------------------------------
 
-\labday{QIIME}
+\labday{BLAST Usage}
+
+\textbf{Make BLAST Database}
+
+-dbtype [prot/nucl] protein or nuclotide, 
+use \begin{verbatim} -parse_seqids \end{verbatim} to enable retrieval 
+of sequences by sequence identifiers. 
+
+
+\begin{verbatim}
+makeblastdb -in [input_seq] -dbtype prot -out Combined_VF -title "Combined_VF"
+
+blastp -db [Path_to_Database] -out results.txt -outfmt 6 -query [input_seqs]
+-max_target_seqs 2
+\end{verbatim}
+
+\textbf{Output format}
+Useful \href{https://www.biostars.org/p/88944/}{outfmt link} on biostars. Formats of interest include 5 XML Blast output, 6 tabular output, 10 comma-seperated values
+
+Standard columns in outfmt 6:
+\begin{verbatim}
+ 1.	 qseqid	 query (e.g., gene) sequence id
+ 2.	 sseqid	 subject (e.g., reference genome) sequence id
+ 3.	 pident	 percentage of identical matches
+ 4.	 length	 alignment length
+ 5.	 mismatch	 number of mismatches
+ 6.	 gapopen	 number of gap openings
+ 7.	 qstart	 start of alignment in query
+ 8.	 qend	 end of alignment in query
+ 9.	 sstart	 start of alignment in subject
+ 10.	 send	 end of alignment in subject
+ 11.	 evalue	 expect value
+ 12.	 bitscore	 bit score
+ 
+ Additional columns can be specific by -outfmt "6 std qlen"
+\end{verbatim}
+
+\textbf{Columns in Tab-seperated format} \\
+qseqid  sseqid  pident  length  mismatch  gapopen qstart  qend  sstart  send  evalue  bitscore
+
+\labday{Microbiome Analysis}
 \experiment{QIIME}
 
 Cite vHMM \href{http://portal.nersc.gov/dna/microbial/prokpubs/EarthVirome_DP/}{Earth Virome Project}. 
 
 \begin{verbatim}
-makeblastdb -in Combined_VF.faa -dbtype prot -out Combined_VF -title "Combined_VF"
+## Load required libraries
+module load qiime2
+source activate qiime2-2017.12
 
-blastp -db /Users/stronglab2/blastdb/Combined_VF/Combined_VF -out results.txt
--outfmt 6 -query phage_proteins.faa
+## Create demux sequences
+qiime tools import --type 'SampleData[PairedEndSequencesWithQuality]' 
+--input-path manifest_file.csv --output-path [paired-end-demux] 
+--source-format PairedEndFastqManifestPhred33
+
+## Perform Dada2 Processing 
+bsub qiime dada2 denoise-paired --i-demultiplexed-seqs [paired-end-demux]
+--p-trunc-len-f 280 --p-trunc-len-r 279 --p-max-ee Inf --p-chimera-method 
+pooled --p-n-threads 0 --o-representative-sequences [rep-seqs] 
+--o-table [table]
+
+## Summarize Table
+bsub qiime feature-table summarize --i-table table.qza --o-visualization table.qzv
+
+## Assign Taxonomy
+bsub qiime feature-classifier classify-sklearn --i-classifier [Database File]
+--i-reads [rep-seqs] --o-classification [taxonomy]
 \end{verbatim}
+
+
+\labday{Gene Prediction Methodolgy}
+
+Utilize \href{https://github.com/hyattpd/Prodigal}{Prodigal} to predict genes in prokaryotes.
+
+\experiment{gene_g}
+
+\begin{verbatim}
+prodigal -i [input_seqs] -o my_genes -a my_proteins.faa
+\end{verbatim} 
+
+\experiment{gene_m}
+
+\begin{verbatim}
+prodigal -i [input_seqs] -o my_genes -a my_proteins.faa -p meta
+\end{verbatim} 
 
 \begin{lstlisting}
 ## Hello World 
 print(x)
 \end{lstlisting} 
 
-
-\labday{Genome}
-\experiment{Genome}
-
-Use Cicos
 
 \labday{HMM}
 

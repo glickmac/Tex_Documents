@@ -1,9 +1,13 @@
 \begin{theindex}
 
-  \item Genomic Comparisons, \hyperpage{2}
+  \item Genome Gene Prediction, \hyperpage{3}
 
   \indexspace
 
-  \item QIIME2 Microbiome, \hyperpage{1}
+  \item Metagenomic Gene Prediction, \hyperpage{3}
+
+  \indexspace
+
+  \item QIIME2 Microbiome, \hyperpage{2}
 
 \end{theindex}
