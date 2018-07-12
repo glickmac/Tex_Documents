@@ -194,7 +194,15 @@ bsub qiime feature-table summarize --i-table table.qza --o-visualization table.q
 ## Assign Taxonomy
 bsub qiime feature-classifier classify-sklearn --i-classifier [Database File]
 --i-reads [rep-seqs] --o-classification [taxonomy]
+
+## Visualize Taxonomy
+qiime metadata tabulate --m-input-file ./Qiime_demo/taxonomy.qza --o-visualization [taxonomy.qzv]
+
+
 \end{verbatim}
+
+
+
 
 
 \labday{Gene Prediction Methodolgy}

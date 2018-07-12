@@ -562,9 +562,38 @@ bsub qiime dada2 denoise-paired --i-demultiplexed-seqs paired-end-demux.qza
 --p-trunc-len-f 280 --p-trunc-len-r 279 --p-max-ee Inf --p-chimera-method 
 pooled --p-n-threads 0 --o-representative-sequences rep-seqs2.qza 
 --o-table table2.qza
-
-
 \end{verbatim}
+
+Job failed to finish, most likely due to the large amounts of memory required, trying to run on the fat node now. May need to split data into multiple parts and run in parallel. 
+
+
+TO-DO
+Thursday:
+
+
+\labday{Week of July 2018}
+
+Run assembly through Phaster (filter >1500 base pairs)
+
+filter_contigs $f filtered_$f.fasta --min_contig 1499
+
+Number of Contigs (Make a table?)
+143
+1266
+164
+52
+51
+
+\\
+
+Number of Contigs Greater than 150
+107
+421
+124
+37
+39
+
+
 
 
 \end{document}
