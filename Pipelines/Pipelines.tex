@@ -227,8 +227,26 @@ print(x)
 \end{lstlisting} 
 
 
-\labday{HMM}
+\labday{BASHING}
 
-hello world
+\textbf{PHASTER Summary to Table Parser}
+Input File is summary.txt from Phaster and the output table is output.txt
+
+The following workflow is wrapped into table\_parsing\_workflow.sh the folder with the summary file shoud be in the same directory as the workflow and python script.
+
+\begin{verbatim}
+sed -i '' -n '/REGION/,$p' $table
+
+sed -i '' -e 's/-//g' $table
+
+sed -i '' -e 's/REGION_POSITION/ASSEMBLY_CONTIG_NUMBER
+CONTIG_LENGTH      CONTIG_DEPTH/g' $table
+
+awk -v OFS="\t" '$1=$1' $table > output.txt
+
+./Table_Parsing.py output.txt $table
+\end{verbatim} 
+
+
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  25 JUN 2018 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 JUL 2018 08:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -453,13 +453,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
+ [2
+
+])
 \tf@toc=\write5
 \openout5 = `Lab_notebook.toc'.
 
- [2
-
-] [3]
+ [3]
 chapter without number
 
 Class scrbook Warning: \float@addtolists detected!
@@ -620,50 +620,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 553--555
  []
 
 
-Overfull \hbox (12.89603pt too wide) in paragraph at lines 567--567
+Overfull \hbox (12.89603pt too wide) in paragraph at lines 565--565
 []\OT1/cmtt/m/n/10.95 bsub qiime dada2 denoise-paired --i-demultiplexed-seqs pa
 ired-end-demux.qza[] 
  []
 
 
-Overfull \hbox (1.39865pt too wide) in paragraph at lines 567--567
+Overfull \hbox (1.39865pt too wide) in paragraph at lines 565--565
 []\OT1/cmtt/m/n/10.95 --p-trunc-len-f 280 --p-trunc-len-r 279 --p-max-ee Inf --
 p-chimera-method[] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
 [15
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
+chapter without number
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 596.
+[16
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 596.
  (./Lab_notebook.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 596.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 596.
 Package rerunfilecheck Info: File `Lab_notebook.out' has not changed.
-(rerunfilecheck)             Checksum: 299FB6DD92BF595ADB9F655F982D2C31;2116.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 570.
+(rerunfilecheck)             Checksum: 79497759DDED1530BA820010092D9F5C;2171.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 596.
  ) 
 Here is how much of TeX's memory you used:
- 9322 strings out of 492995
- 149435 string characters out of 6132704
+ 9327 strings out of 492995
+ 149493 string characters out of 6132704
  463921 words of memory out of 5000000
- 12719 multiletter control sequences out of 15000+600000
+ 12721 multiletter control sequences out of 15000+600000
  10714 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,8n,68p,8859b,1724s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Lab_notebook.pdf (18 pages, 146423 bytes).
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Lab_notebook.pdf (19 pages, 156222 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 79 named destinations out of 1000 (max. 500000)
- 225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 302 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

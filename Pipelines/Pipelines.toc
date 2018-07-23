@@ -4,4 +4,4 @@
 \contentsline {chapter}{\nonumberline Gene Prediction Methodolgy}{3}{chapter*.4}
 \contentsline {experiment}{\numberline {1}Genome Gene Prediction}{3}{experiment.3.1}
 \contentsline {experiment}{\numberline {2}Metagenomic Gene Prediction}{3}{experiment.3.2}
-\contentsline {chapter}{\nonumberline HMM}{4}{chapter*.5}
+\contentsline {chapter}{\nonumberline BASHING}{4}{chapter*.5}
