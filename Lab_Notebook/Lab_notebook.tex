@@ -592,5 +592,12 @@ Number of Contigs Greater than 150
 
 \labday{Week of July 2018}
 
+vsearch -cluster_fast  $inputfile  -id 0.995 \
+-centroids    ${filename}.centroids \
+-uc           ${filename}.clusters \
+-consout      ${filename}.consesus \
+-alnout       ${filename}.aln \
+-clusters     $clustdir/${filename}.c- \
+-msaout       $msadir/${filename}.c- \
 
 \end{document}

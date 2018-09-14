@@ -140,7 +140,7 @@ of sequences by sequence identifiers.
 makeblastdb -in [input_seq] -dbtype prot -out Combined_VF -title "Combined_VF"
 
 blastp -db [Path_to_Database] -out results.txt -outfmt 6 -query [input_seqs]
--max_target_seqs 2
+-max_target_seqs 2 -perc_identity 95 
 \end{verbatim}
 
 \textbf{Output format}
@@ -163,6 +163,9 @@ Standard columns in outfmt 6:
  
  Additional columns can be specific by -outfmt "6 std qlen"
 \end{verbatim}
+
+\textbf{Custom Output Format} \\
+-outfmt "6 qseqid sseqid pident length mismatch evalue bitscore stitle"
 
 \textbf{Columns in Tab-seperated format} \\
 qseqid  sseqid  pident  length  mismatch  gapopen qstart  qend  sstart  send  evalue  bitscore
