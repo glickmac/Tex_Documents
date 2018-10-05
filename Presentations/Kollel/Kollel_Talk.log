@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.15)  3 OCT 2018 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.15)  5 OCT 2018 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -518,40 +518,35 @@ File: ../Figures/treejew.jpg Graphic file (type jpg)
 <use ../Figures/treejew.jpg>
 Package pdftex.def Info: ../Figures/treejew.jpg  used on input line 184.
 (pdftex.def)             Requested size: 156.51439pt x 142.27191pt.
-<../Figures/Nucleosome.jpg, id=43, 200.75pt x 179.67125pt>
-File: ../Figures/Nucleosome.jpg Graphic file (type jpg)
-<use ../Figures/Nucleosome.jpg>
-Package pdftex.def Info: ../Figures/Nucleosome.jpg  used on input line 196.
-(pdftex.def)             Requested size: 99.5875pt x 85.36116pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
- [2 <../Figures/kollel_1.png> <../Figures/treejew.jpg> <../Figures/Nucleosome.j
-pg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
-
-(./Kollel_Talk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+ [2 <../Figures/kollel_1.png> <../Figures/treejew.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
+ (./Kollel_Talk.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `Kollel_Talk.out' has not changed.
-(rerunfilecheck)             Checksum: 20614EFBF7A73EBA3C0B59676BDBBC74;364.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
+(rerunfilecheck)             Checksum: 569045AA982A5D224F62050B0C9797B5;367.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 9455 strings out of 492982
- 152168 string characters out of 6134896
- 464585 words of memory out of 5000000
- 12933 multiletter control sequences out of 15000+600000
+ 9450 strings out of 492982
+ 152038 string characters out of 6134896
+ 465585 words of memory out of 5000000
+ 12929 multiletter control sequences out of 15000+600000
  8227 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,8n,68p,8858b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,9n,68p,8858b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Kollel_Talk.pdf (2 pages, 753479 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Kollel_Talk.pdf (2 pages, 766094 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  9 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

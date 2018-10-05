@@ -56,7 +56,7 @@
 \usepackage{float} % Required for specifying the exact location of a figure or table
 \usepackage{graphicx} % Required for including images
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
+\usepackage{float}
 \usepackage{listings}
 \usepackage{color}
 \usepackage[margin=0.5in]{geometry}
@@ -95,7 +95,7 @@
 
 \newexperiment{DNA}{Very Abbreviated History of DNA}
 \newexperiment{Ancestry}{Ancestry: Origin of Your DNA}
-\newexperiment{Gattac}{Genes Maketh the Man?}
+\newexperiment{Gattac}{Genes Idenifith the Man?}
 \newexperiment{Law}{You as Defined by Merriam-Webster}
 %\newexperiment{shorthand}{Description of the experiment}
 
@@ -190,16 +190,24 @@ SNP testing is able to identify \textbf{3} branches common to Jewish lineages: A
 \vspace{-0.3cm}
 \experiment{Gattac}
 \vspace{-0.2cm}
-Incomplete penetrance is term that defines an individual that carries a genetic mutation, however does not express the trait. 
+Human identification in criminal and parental testing is done using STRs. 13 core STRs make up the Combined DNA Index System (CODIS). The probability of unrelated people matching at a single STR is 7.5\%. \\
+\vspace{-0.2cm}
+\begin{table}[!htbp]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\# of STR Matches & Probability \\ \hline
+		1 & 0.075 \\ \hline
+		2 & 0.0056 \\ \hline
+		3 & 0.00042 \\ \hline
+		4 & 0.0000024 \\ \hline
+		5 & 0.000000018 \\ \hline
+	\end{tabular}
+\end{table}
 
-\begin{center}
-	\includegraphics[height=3cm, width=3.5cm]{Nucleosome.jpg}
-\end{center}
 
-Epigenetics affects expression of traits generation downstream of environmental stimulus. 
-\begin{center}
-	The answer to the question of nature vs. nurture is both.
-\end{center}
+\textbf{Chances of matching 9 STRs is 1 in 13 billion!}. So do unrelated people actually match? Yes, due to the amount of pairwise comparisons! Also, we are looking for any 9 matching STRs, which opens up 715 different combinations. If we compare a database of 65K people our equation is as follows \[ 65000*\frac{64999}{2}*715 > 1.5 \ trillon \] \[ 1.5 \ trillon / 13 \ billion = 116 \]
+Therefore, we would expect \textbf{116 unrelated people to share 9 STRs}. 
 
 \vspace{-0.3cm}
 \experiment{Law}
@@ -208,7 +216,7 @@ You are genetically unique and thus \textbf{Genetically Identifiable}. The Genet
 
 \textbf{Open Questions:}\\
 Does your genetic information define your identity? \\ 
-To what extent are your genetics representative of your physical traits? \\
+Are STRs enough for genetic identification? \\
 Who should be allowed to see your genetic information?
 
 
