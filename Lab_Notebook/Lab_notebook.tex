@@ -60,6 +60,12 @@
 \usepackage{listings}
 \usepackage{color}
 
+
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
 \definecolor{green}{rgb}{0,0.5,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
@@ -592,6 +598,8 @@ Number of Contigs Greater than 150
 
 \labday{Week of July 2018}
 
+
+\begin{verbatim}
 vsearch -cluster_fast  $inputfile  -id 0.995 \
 -centroids    ${filename}.centroids \
 -uc           ${filename}.clusters \
@@ -599,5 +607,31 @@ vsearch -cluster_fast  $inputfile  -id 0.995 \
 -alnout       ${filename}.aln \
 -clusters     $clustdir/${filename}.c- \
 -msaout       $msadir/${filename}.c- \
+\end{verbatim}
+
+\labday{Week of September 10 2018}
+
+Squares (analysis) 
+
+
+Projects in motion:
+
+\begin{table}[]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lllll@{}}
+\toprule
+{\ul \textbf{Projects}} & {\ul \textbf{Status}} & {\ul \textbf{Goals (To-Do)}} & {\ul \textbf{Done This Week}} & {\ul \textbf{Comments}} \\ \midrule
+Hawaiian Soils & Drafting Manuscript & Submit &  & Waiting on 3 samples \\
+Duobiome & Testing (Formulating Pipeline) & Establish Pipelines on Github &  & Pam is creating testing dataset \\
+vHMM & Development & Null Model | Truncate HMM &  &  \\
+GRAB & Development & Package Development &  & Incorporate SequenceServer \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+
+
+
+
 
 \end{document}
