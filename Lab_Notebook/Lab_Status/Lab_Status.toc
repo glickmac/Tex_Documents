@@ -12,3 +12,9 @@
 \contentsline {experiment}{\numberline {1}Genomic Retrieval and BLAST Database Creation}{4}{experiment.3.1}
 \contentsline {experiment}{\numberline {2}Identifying Virulence Factors in Phages}{4}{experiment.3.2}
 \contentsline {experiment}{\numberline {3}Creation of rpoB, HSP65, and 16S Databases}{4}{experiment.3.3}
+\contentsline {chapter}{\nonumberline September 21st, 2018}{5}{chapter*.5}
+\contentsline {experiment}{\numberline {1}Identifying Virulence Factors in Phages}{5}{experiment.4.1}
+\contentsline {experiment}{\numberline {2}GRAB Package + Sequenceserver}{5}{experiment.4.2}
+\contentsline {experiment}{\numberline {3}18S/16S Pipeline}{5}{experiment.4.3}
+\contentsline {experiment}{\numberline {4}Viral Contig Discovery Hybrid}{5}{experiment.4.4}
+\contentsline {experiment}{\numberline {5}Creation of rpoB, HSP65, and 16S Databases}{5}{experiment.4.5}

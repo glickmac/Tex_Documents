@@ -56,7 +56,7 @@
 \usepackage{float} % Required for specifying the exact location of a figure or table
 \usepackage{graphicx} % Required for including images
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
+\usepackage[margin=0.5in]{geometry}
 \usepackage{listings}
 \usepackage{color}
 
@@ -129,6 +129,132 @@
 %----------------------------------------------------------------------------------------
 %	LAB BOOK CONTENTS
 %----------------------------------------------------------------------------------------
+
+\labday{Pre 2018}
+To add directory to path in MAC
+\begin{verbatim}
+export PATH=/path_goes_here/folder:$PATH
+\end{verbatim}
+
+Get HMM Contig IDS
+\begin{verbatim}
+sed 's/^>.*\>/>/g' $f | grep -o '^\S*' | grep '>' | sed 's/>//g' | uniq > hmm_headers_$f.txt
+\end{verbatim}
+
+
+File3 will contain items not in control (count lines)
+\begin{verbatim}
+comm -23 file1 file2 > file3
+wc -l file3
+\end{verbatim}
+
+Count number of Bases in Fasta
+\begin{verbatim}
+cat non_paired.fastq | paste - - | cut -f 2 | tr -d '\n' | wc -c 
+wc -l file3
+\end{verbatim}
+
+Convert fastq to fasta
+\begin{verbatim}
+cat test.fastq | paste - - - - | sed 's/^@/>/g'| cut -f1-2 | tr '\t' '\n' > Output.fasta
+\end{verbatim}
+
+
+BAM file to fasta
+\begin{verbatim}
+samtools view filename.bam | awk '{OFS="\t"; print ">"$1"\n"$10}'  > filename.fasta
+\end{verbatim}
+
+To filter significant contigs by headers (in QIIME)
+\begin{verbatim}
+filter_fasta.py -f final.contigs.fa -o test.fasta -s Headers.txt 
+grep -vFf file_with_patterns other_file
+\end{verbatim}
+
+Assembly of significant reads
+\begin{verbatim}
+for f in *.fastq; do megahit -r $f -o ${f%%.*}; done;
+\end{verbatim}
+
+Align reads back to contigs
+\begin{verbatim}
+bwa index contigs.fasta
+bwa aln -t NUMBER_OF_THREADS contigs.fasta short_reads.fastq > alignment.sai
+bwa samse contigs.fasta alignment.sai short_reads.fastq > alignment.sam
+\end{verbatim}
+
+
+Split Combined Fastq File
+\begin{verbatim}
+awk '{++count ; if (count<=4) {print > "F3.fastq"} else {print > "R3.fastq" } if (count==8) count=0 }' grinder_err1-1-reads.fastq
+\end{verbatim} 
+
+Filter reads that mapped to contigs
+\begin{verbatim}
+samtools view -b -F 4 file.bam > file_unmapped.bam
+\end{verbatim}
+
+Trim Reads
+\begin{verbatim}
+fastx_trimmer -Q33 -f [Length] -i input.fastq -o output.fastq
+\end{verbatim}
+
+GreenGenes Database Level Munging
+\begin{verbatim}
+sed 's/Other//g' test3.txt > removed_other.txt
+sed 's/[a-z]__//g' removed_other.txt > removed_taxonomy_levels_test2.txt 
+sed 's/[;]\{2,\}//g' removed_taxonomy_levels_test2.txt > middle_1.txt
+sed 's/$;//g' middle_1.txt > middle_2.txt
+sed 's/\[//g;s/\]//g' removed_end_semi_colons_with_counts.txt > middle_3.txt 
+sed 's/ //g' middle_3.txt > middle_4.txt
+\end{verbatim}
+
+
+Run Kracken kmer indentifier
+\begin{verbatim}
+kraken --db /Users/stronglab2/Downloads/minikraken_DB/ final.contigs.fa > sequences.kraken
+kraken-translate --db /Users/stronglab2/Downloads/minikraken_DB/ sequences.kraken > sequences.labels
+\end{verbatim}
+
+
+Kraken Viral Data Processing
+\begin{verbatim}
+cat $f/sequences.labels | grep “Viruses” > $f/viral_labels.txt
+sed 's!.*;!!' $f/viral_labels.txt > $f/viral_species.txt
+uniq -u $f/viral_species.txt > unique_species_$f.txt 
+\end{verbatim}
+
+Randomly Sample Fasta File
+\begin{verbatim}
+reformat.sh in=input.fasta out=output.fasta samplereadstarget=[number of reads]
+\end{verbatim}
+
+Random Shuffling and Spliting Fasta
+\begin{verbatim}
+seqkit shuffle [input.fa] --two-pass > output.shuffled.fa
+partition.sh in=shuffled_ebola_reads.fasta out=ebola_part%.fasta ways=36
+\end{verbatim}
+
+Simulate metagenome / Create Coverage Map / Stats for Synthetic Metagenome
+\begin{verbatim}
+randomreads.sh ref=Synthetic_Metagenome_Genomes.fasta out=reads.fastq reads=10M paired metagenome
+bbmap.sh ref=Combined_synthetic_Metagenome.fasta in=reads.fastq covstats=covstats.txt scafstats=scafstats.txt
+stats.sh in=$f/final.contigs.fa out=$f/assembly_stats_$f.txt
+\end{verbatim}
+
+
+Regex to get contain lengths file
+\begin{verbatim}
+sed 's/.*\=//g' final.contigs.fa | grep '[0-9]' > test.txt
+\end{verbatim}
+
+Kmerize Single Genome
+\begin{verbatim}
+pyfasta split -k 848 -o 0 Input.fasta -n 1
+\end{verbatim}
+
+
+
 
 
 \labday{Week of 26 February 2018}
@@ -630,7 +756,31 @@ GRAB & Development & Package Development &  & Incorporate SequenceServer \\ \bot
 \end{table}
 
 
+\labday{Week of September 10 2018}
 
+Check if files are the same
+\begin{verbatim}
+cmp --silent err-11-F1.fastq err-12-F2.fastq || echo "files are different"
+\end{verbatim}
+
+
+SPlit Data
+\begin{verbatim}
+awk '{++count ; if (count<=4) {print > "F3.fastq"} else {print > "R3.fastq" } if (count==8) count=0 }' err-11-F1.fastq
+\end{verbatim}
+
+
+Change Header
+\begin{verbatim}
+cat err-12-F1.fastq | awk '{print (NR%4 == 1) ? "@1_" ++i : $0}' | gzip -c > err-12-F1.fastq.gz
+\end{verbatim}
+
+
+Had to remove additional ! point from end of quality scores in test FASTQ files 
+
+\begin{verbatim}
+perl -lpe 'chop if 0 == $. % 4' Input_File > Output_File
+\end{verbatim}
 
 
 
