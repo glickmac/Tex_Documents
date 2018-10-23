@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  15 OCT 2018 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  23 OCT 2018 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1191,7 +1191,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 28.
 
 (./CPBS_Update_11_18.nav)
-<../../Figures/lablogo.png, id=65, 48.18pt x 49.1436pt>
+<../../Figures/lablogo.png, id=58, 48.18pt x 49.1436pt>
 File: ../../Figures/lablogo.png Graphic file (type png)
 
 <use ../../Figures/lablogo.png>
@@ -1209,329 +1209,300 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 ] [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 100
-.
-LaTeX Font Info:    No file OMScmss.fd. on input line 100.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 97.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 97.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 100.
+(Font)              for symbol `textbullet' on input line 97.
 
 [4
 
-] <../../Figures/soil.jpeg, id=261, 4015.0pt x 2007.5pt>
-File: ../../Figures/soil.jpeg Graphic file (type jpg)
+] [5
 
-<use ../../Figures/soil.jpeg>
-Package pdftex.def Info: ../../Figures/soil.jpeg used on input line 123.
-(pdftex.def)             Requested size: 142.25475pt x 113.79767pt.
+] [6
 
-Overfull \vbox (0.45352pt too high) detected at line 123
- []
-
-[5
-
- <../../Figures/soil.jpeg>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 154.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 162.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 154.
+LaTeX Font Info:    Try loading font information for U+msb on input line 162.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 154.
+line 162.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) <../../Figures/barr.png, id=301, 722.7pt x 542.025pt>
-File: ../../Figures/barr.png Graphic file (type png)
-
-<use ../../Figures/barr.png>
-Package pdftex.def Info: ../../Figures/barr.png used on input line 154.
-(pdftex.def)             Requested size: 142.26576pt x 156.48848pt.
-
-Overfull \hbox (19.3517pt too wide) in paragraph at lines 154--154
-[][]  
- []
-
-[6
-
- <../../Figures/barr.png>]
-<../../Figures/ribosome.jpg, id=341, 949.5475pt x 1272.755pt>
+) <../../Figures/ribosome.jpg, id=284, 949.5475pt x 1272.755pt>
 File: ../../Figures/ribosome.jpg Graphic file (type jpg)
 
 <use ../../Figures/ribosome.jpg>
-Package pdftex.def Info: ../../Figures/ribosome.jpg used on input line 182.
+Package pdftex.def Info: ../../Figures/ribosome.jpg used on input line 162.
 (pdftex.def)             Requested size: 142.2521pt x 156.4722pt.
  [7
 
  <../../Figures/ribosome.jpg>]
-<../../Figures/objective.png, id=381, 904.37875pt x 569.12625pt>
+<../../Figures/objective.png, id=319, 904.37875pt x 569.12625pt>
 File: ../../Figures/objective.png Graphic file (type png)
 
 <use ../../Figures/objective.png>
-Package pdftex.def Info: ../../Figures/objective.png used on input line 189.
+Package pdftex.def Info: ../../Figures/objective.png used on input line 169.
 (pdftex.def)             Requested size: 256.06706pt x 170.71313pt.
  [8
 
  <../../Figures/objective.png>]
-<../../Figures/mosaic.png, id=422, 1477.52pt x 1156.32pt>
-File: ../../Figures/mosaic.png Graphic file (type png)
+<../../Figures/CPBS_11_18/NJH_Protocol.jpg, id=353, 1579.9025pt x 626.34pt>
+File: ../../Figures/CPBS_11_18/NJH_Protocol.jpg Graphic file (type jpg)
 
-<use ../../Figures/mosaic.png>
-Package pdftex.def Info: ../../Figures/mosaic.png used on input line 212.
-(pdftex.def)             Requested size: 142.25964pt x 156.48463pt.
- [9
+<use ../../Figures/CPBS_11_18/NJH_Protocol.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/NJH_Protocol.jpg used on inpu
+t line 179.
+(pdftex.def)             Requested size: 312.96149pt x 142.2584pt.
 
- <../../Figures/mosaic.png (PNG copy)>]
-<../../Figures/Filtered.png, id=462, 720.6925pt x 575.14874pt>
-File: ../../Figures/Filtered.png Graphic file (type png)
-
-<use ../../Figures/Filtered.png>
-Package pdftex.def Info: ../../Figures/Filtered.png used on input line 233.
-(pdftex.def)             Requested size: 156.48543pt x 142.2598pt.
-
-Overfull \hbox (2.8405pt too wide) in paragraph at lines 233--233
+Overfull \hbox (5.67162pt too wide) in paragraph at lines 179--179
 [][]  
  []
 
-<../../Figures/unfiltered.png, id=463, 714.67pt x 581.17125pt>
-File: ../../Figures/unfiltered.png Graphic file (type png)
+[9
 
-<use ../../Figures/unfiltered.png>
-Package pdftex.def Info: ../../Figures/unfiltered.png used on input line 233.
-(pdftex.def)             Requested size: 156.48634pt x 142.25961pt.
+ <../../Figures/CPBS_11_18/NJH_Protocol.jpg>]
+<../../Figures/CPBS_11_18/Issues.jpg, id=386, 803.0pt x 639.38875pt>
+File: ../../Figures/CPBS_11_18/Issues.jpg Graphic file (type jpg)
 
-Overfull \hbox (2.84142pt too wide) in paragraph at lines 233--233
+<use ../../Figures/CPBS_11_18/Issues.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/Issues.jpg used on input line
+ 199.
+(pdftex.def)             Requested size: 156.49248pt x 142.26598pt.
+
+Overfull \hbox (2.84755pt too wide) in paragraph at lines 199--199
 [][]  
- []
-
-
-Overfull \vbox (4.43903pt too high) detected at line 233
  []
 
 [10
 
- <../../Figures/Filtered.png> <../../Figures/unfiltered.png>] [11
+ <../../Figures/CPBS_11_18/Issues.jpg>]
+<../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg, id=419, 1773.62625pt x 49
+8.86375pt>
+File: ../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg Graphic file (type jp
+g)
+ <use ../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg us
+ed on input line 207.
+(pdftex.def)             Requested size: 312.96027pt x 113.80757pt.
 
-] [12
+Overfull \hbox (5.6704pt too wide) in paragraph at lines 207--207
+ [] 
+ []
 
-]
-[13
+[11
+
+ <../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg>]
+<../../Figures/CPBS_11_18/Selection_Protocol.jpg, id=451, 1400.23125pt x 991.70
+5pt>
+File: ../../Figures/CPBS_11_18/Selection_Protocol.jpg Graphic file (type jpg)
+ <use ../../Figures/CPBS_11_18/Selection_Protocol.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/Selection_Protocol.jpg used o
+n input line 214.
+(pdftex.def)             Requested size: 312.96596pt x 199.16975pt.
+
+Overfull \hbox (5.67609pt too wide) in paragraph at lines 214--214
+ [] 
+ []
+
+[12
+
+ <../../Figures/CPBS_11_18/Selection_Protocol.jpg>] [13
 
 ] [14
 
-] <../../Figures/Recall.png, id=659, 1182.4175pt x 673.51625pt>
-File: ../../Figures/Recall.png Graphic file (type png)
+] [15
 
-<use ../../Figures/Recall.png>
-Package pdftex.def Info: ../../Figures/Recall.png used on input line 353.
-(pdftex.def)             Requested size: 170.71544pt x 142.26474pt.
-
-Overfull \hbox (17.07051pt too wide) in paragraph at lines 353--353
- [] 
- []
-
-<../../Figures/Precision.png, id=660, 1183.42125pt x 672.5125pt>
-File: ../../Figures/Precision.png Graphic file (type png)
-
-<use ../../Figures/Precision.png>
-Package pdftex.def Info: ../../Figures/Precision.png used on input line 353.
-(pdftex.def)             Requested size: 170.7159pt x 142.25795pt.
-
-Overfull \hbox (17.07097pt too wide) in paragraph at lines 353--353
- [] 
- []
-
-[15
-
- <../../Figures/Recall.png> <../../Figures/Precision.png>] [16
-
-] [17
+] [16
 
 ]
-[18
+File: ../../Figures/ribosome.jpg Graphic file (type jpg)
+
+<use ../../Figures/ribosome.jpg>
+Package pdftex.def Info: ../../Figures/ribosome.jpg used on input line 358.
+(pdftex.def)             Requested size: 142.2521pt x 156.4722pt.
+ [17
+
+] [18
 
 ] [19
 
-] [20
-
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 468.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 422.
 
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-[21
+) [20
 
-] [22
-
-] [23
-
-] <../../Figures/biostars.png, id=1012, 286.06876pt x 70.2625pt>
-File: ../../Figures/biostars.png Graphic file (type png)
-
-<use ../../Figures/biostars.png>
-Package pdftex.def Info: ../../Figures/biostars.png used on input line 505.
-(pdftex.def)             Requested size: 113.81pt x 28.45293pt.
-
-<../../Figures/stack.png, id=1013, 1003.75pt x 299.1175pt>
-File: ../../Figures/stack.png Graphic file (type png)
-
-<use ../../Figures/stack.png>
-Package pdftex.def Info: ../../Figures/stack.png used on input line 505.
-(pdftex.def)             Requested size: 113.79767pt x 28.4484pt.
- [24
-
- <../../Figures/biostars.png (PNG copy)> <../../Figures/stack.png>] [25
+] [21
 
 ]
-<../../Figures/prophage.png, id=1093, 1204.5pt x 1264.725pt>
+[22
+
+] <../../Figures/prophage.png, id=801, 1204.5pt x 1264.725pt>
 File: ../../Figures/prophage.png Graphic file (type png)
 
 <use ../../Figures/prophage.png>
-Package pdftex.def Info: ../../Figures/prophage.png used on input line 538.
+Package pdftex.def Info: ../../Figures/prophage.png used on input line 464.
 (pdftex.def)             Requested size: 142.25475pt x 99.57832pt.
- [26
+ [23
 
  <../../Figures/prophage.png>]
-<../../Figures/dna.png, id=1135, 602.25pt x 516.93124pt>
+<../../Figures/dna.png, id=836, 602.25pt x 516.93124pt>
 File: ../../Figures/dna.png Graphic file (type png)
 
 <use ../../Figures/dna.png>
-Package pdftex.def Info: ../../Figures/dna.png used on input line 546.
+Package pdftex.def Info: ../../Figures/dna.png used on input line 472.
 (pdftex.def)             Requested size: 142.26393pt x 113.8041pt.
- [27
+ [24
 
  <../../Figures/dna.png>]
-<../../Figures/gc.png, id=1174, 673.51625pt x 673.51625pt>
+<../../Figures/gc.png, id=868, 673.51625pt x 673.51625pt>
 File: ../../Figures/gc.png Graphic file (type png)
 
 <use ../../Figures/gc.png>
-Package pdftex.def Info: ../../Figures/gc.png used on input line 568.
+Package pdftex.def Info: ../../Figures/gc.png used on input line 494.
 (pdftex.def)             Requested size: 142.26474pt x 99.58429pt.
- [28
+ [25
 
  <../../Figures/gc.png>]
-<../../Figures/box_contigs.png, id=1214, 821.0675pt x 183.68625pt>
+<../../Figures/box_contigs.png, id=902, 821.0675pt x 183.68625pt>
 File: ../../Figures/box_contigs.png Graphic file (type png)
 
 <use ../../Figures/box_contigs.png>
-Package pdftex.def Info: ../../Figures/box_contigs.png used on input line 586.
+Package pdftex.def Info: ../../Figures/box_contigs.png used on input line 512.
 (pdftex.def)             Requested size: 142.26071pt x 85.35995pt.
- [29
+ [26
 
  <../../Figures/box_contigs.png>]
-<../../Figures/BUD_Algorithm.jpg, id=1255, 963.6pt x 542.025pt>
+<../../Figures/BUD_Algorithm.jpg, id=936, 963.6pt x 542.025pt>
 File: ../../Figures/BUD_Algorithm.jpg Graphic file (type jpg)
 
 <use ../../Figures/BUD_Algorithm.jpg>
-Package pdftex.def Info: ../../Figures/BUD_Algorithm.jpg used on input line 601
+Package pdftex.def Info: ../../Figures/BUD_Algorithm.jpg used on input line 527
 .
 (pdftex.def)             Requested size: 284.5242pt x 192.05217pt.
 
-Overfull \vbox (17.82866pt too high) detected at line 601
+Overfull \vbox (17.82866pt too high) detected at line 527
  []
 
-[30
+[27
 
  <../../Figures/BUD_Algorithm.jpg>]
-<../../Figures/network.png, id=1294, 1251.67625pt x 651.43375pt>
+<../../Figures/network.png, id=968, 1251.67625pt x 651.43375pt>
 File: ../../Figures/network.png Graphic file (type png)
 
 <use ../../Figures/network.png>
-Package pdftex.def Info: ../../Figures/network.png used on input line 611.
+Package pdftex.def Info: ../../Figures/network.png used on input line 537.
 (pdftex.def)             Requested size: 312.97559pt x 170.71068pt.
 
-Overfull \hbox (5.68571pt too wide) in paragraph at lines 611--611
+Overfull \hbox (5.68571pt too wide) in paragraph at lines 537--537
 [][]  
+ []
+
+[28
+
+ <../../Figures/network.png>] [29
+
+]
+<../../Figures/fig.png, id=1033, 1261.71375pt x 368.37625pt>
+File: ../../Figures/fig.png Graphic file (type png)
+
+<use ../../Figures/fig.png>
+Package pdftex.def Info: ../../Figures/fig.png used on input line 568.
+(pdftex.def)             Requested size: 227.61848pt x 113.8076pt.
+ [30
+
+ <../../Figures/fig.png>]
+File: ../../Figures/BUD_Algorithm.jpg Graphic file (type jpg)
+
+<use ../../Figures/BUD_Algorithm.jpg>
+Package pdftex.def Info: ../../Figures/BUD_Algorithm.jpg used on input line 584
+.
+(pdftex.def)             Requested size: 284.5242pt x 192.05217pt.
+
+Overfull \vbox (17.82866pt too high) detected at line 584
  []
 
 [31
 
- <../../Figures/network.png>] [32
-
-]
-<../../Figures/fig.png, id=1374, 1261.71375pt x 368.37625pt>
-File: ../../Figures/fig.png Graphic file (type png)
-
-<use ../../Figures/fig.png>
-Package pdftex.def Info: ../../Figures/fig.png used on input line 642.
-(pdftex.def)             Requested size: 227.61848pt x 113.8076pt.
- [33
-
- <../../Figures/fig.png>]
-<../../Figures/goals.png, id=1414, 608.2725pt x 131.49126pt>
+] <../../Figures/goals.png, id=1099, 608.2725pt x 131.49126pt>
 File: ../../Figures/goals.png Graphic file (type png)
 
 <use ../../Figures/goals.png>
-Package pdftex.def Info: ../../Figures/goals.png used on input line 667.
+Package pdftex.def Info: ../../Figures/goals.png used on input line 609.
 (pdftex.def)             Requested size: 284.53302pt x 56.90529pt.
- [34
+ [32
 
  <../../Figures/goals.png>]
-<../../Figures/Acknowledgements.png, id=1457, 902.37125pt x 479.7925pt>
+<../../Figures/Acknowledgements.png, id=1135, 902.37125pt x 479.7925pt>
 File: ../../Figures/Acknowledgements.png Graphic file (type png)
 
 <use ../../Figures/Acknowledgements.png>
 Package pdftex.def Info: ../../Figures/Acknowledgements.png used on input line 
-675.
+617.
 (pdftex.def)             Requested size: 312.98447pt x 227.6256pt.
 
-Overfull \hbox (5.6946pt too wide) in paragraph at lines 675--675
+Overfull \hbox (5.6946pt too wide) in paragraph at lines 617--617
 [][]  
  []
 
 
-Overfull \vbox (3.19444pt too high) detected at line 675
+Overfull \vbox (3.19444pt too high) detected at line 617
  []
 
-[35
+[33
 
  <../../Figures/Acknowledgements.png>]
 File: ../../Figures/lablogo.png Graphic file (type png)
  <use ../../Figures/lablogo.png>
-Package pdftex.def Info: ../../Figures/lablogo.png used on input line 681.
+Package pdftex.def Info: ../../Figures/lablogo.png used on input line 623.
 (pdftex.def)             Requested size: 56.90553pt x 56.90836pt.
 
-[36
+[34
 
-] <../../Figures/Viral_Coverage_by_GC.png, id=1537, 907.39pt x 570.13pt>
+] <../../Figures/Viral_Coverage_by_GC.png, id=1201, 907.39pt x 570.13pt>
 File: ../../Figures/Viral_Coverage_by_GC.png Graphic file (type png)
 
 <use ../../Figures/Viral_Coverage_by_GC.png>
 Package pdftex.def Info: ../../Figures/Viral_Coverage_by_GC.png used on input l
-ine 686.
+ine 628.
 (pdftex.def)             Requested size: 312.98065pt x 227.62169pt.
 
-Overfull \hbox (5.69078pt too wide) in paragraph at lines 686--686
+Overfull \hbox (5.69078pt too wide) in paragraph at lines 628--628
 [][]  
  []
 
-[37
+[35
 
  <../../Figures/Viral_Coverage_by_GC.png>]
-<../../Figures/figure_2_updated.jpg, id=1580, 722.7pt x 406.51875pt>
+<../../Figures/figure_2_updated.jpg, id=1236, 722.7pt x 406.51875pt>
 File: ../../Figures/figure_2_updated.jpg Graphic file (type jpg)
 
 <use ../../Figures/figure_2_updated.jpg>
 Package pdftex.def Info: ../../Figures/figure_2_updated.jpg used on input line 
-692.
+634.
 (pdftex.def)             Requested size: 312.9825pt x 170.71188pt.
 
-Overfull \hbox (5.69263pt too wide) in paragraph at lines 692--692
+Overfull \hbox (5.69263pt too wide) in paragraph at lines 634--634
 [][]  
  []
 
-[38
+[36
 
- <../../Figures/figure_2_updated.jpg>] [39
+ <../../Figures/figure_2_updated.jpg>] [37
 
 ]
 \tf@nav=\write6
@@ -1543,13 +1514,13 @@ Overfull \hbox (5.69263pt too wide) in paragraph at lines 692--692
 \tf@snm=\write8
 \openout8 = `CPBS_Update_11_18.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 721.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 721.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 663.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 663.
  (./CPBS_Update_11_18.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 721.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 721.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 663.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 663.
 Package rerunfilecheck Info: File `CPBS_Update_11_18.out' has not changed.
-(rerunfilecheck)             Checksum: 9731708A9B701C924BC67C6314D16DBB;225.
+(rerunfilecheck)             Checksum: 8DC8E2D74C4B663C76FFFC911290E02F;240.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1560,10 +1531,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17956 strings out of 492995
- 336817 string characters out of 6132704
- 437293 words of memory out of 5000000
- 20968 multiletter control sequences out of 15000+600000
+ 17923 strings out of 492995
+ 336447 string characters out of 6132704
+ 428789 words of memory out of 5000000
+ 20942 multiletter control sequences out of 15000+600000
  16616 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,56p,803b,756s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1575,10 +1546,10 @@ sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr
 ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local
 /texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on CPBS_Update_11_18.pdf (39 pages, 5169093 bytes).
+Output written on CPBS_Update_11_18.pdf (37 pages, 2766184 bytes).
 PDF statistics:
- 1708 PDF objects out of 1728 (max. 8388607)
- 1564 compressed objects within 16 object streams
- 88 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1351 PDF objects out of 1440 (max. 8388607)
+ 1230 compressed objects within 13 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
