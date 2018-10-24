@@ -1,5 +1,4 @@
-\beamer@sectionintoc {2}{Clinical NTM Gene Databases}{9}{0}{1}
-\beamer@sectionintoc {3}{Duobiome}{17}{0}{2}
-\beamer@sectionintoc {4}{Virulence Factors in Bacteriophages}{22}{0}{3}
-\beamer@sectionintoc {5}{Establishing Baseline Virulence Factor Abundance}{25}{0}{4}
-\beamer@sectionintoc {6}{Hybrid Viral Contig Prediction}{31}{0}{5}
+\beamer@sectionintoc {2}{Clinical NTM Gene Databases}{7}{0}{1}
+\beamer@sectionintoc {3}{Duobiome}{15}{0}{2}
+\beamer@sectionintoc {4}{Virulence Factors in Phages}{22}{0}{3}
+\beamer@sectionintoc {5}{Hybrid Viral Contig Prediction}{34}{0}{4}
