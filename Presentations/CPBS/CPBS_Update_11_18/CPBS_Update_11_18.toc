@@ -1,4 +1,3 @@
-\beamer@sectionintoc {2}{Clinical NTM Gene Databases}{7}{0}{1}
-\beamer@sectionintoc {3}{Duobiome}{15}{0}{2}
-\beamer@sectionintoc {4}{Virulence Factors in Phages}{22}{0}{3}
-\beamer@sectionintoc {5}{Hybrid Viral Contig Prediction}{34}{0}{4}
+\beamer@sectionintoc {3}{Virulence Factors in Phages}{8}{0}{1}
+\beamer@sectionintoc {5}{Building Up Domains}{20}{0}{2}
+\beamer@sectionintoc {7}{Hybrid Viral Contig Prediction}{29}{0}{3}

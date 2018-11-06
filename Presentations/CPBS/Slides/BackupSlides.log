@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 NOV 2018 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 NOV 2018 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**CPBS_Update_11_18.tex
-(./CPBS_Update_11_18.tex
+**BackupSlides.tex
+(./BackupSlides.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1032,8 +1032,8 @@ Package: ulem 2012/05/18
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 16.
 
-(./CPBS_Update_11_18.aux)
-\openout1 = `CPBS_Update_11_18.aux'.
+(./BackupSlides.aux)
+\openout1 = `BackupSlides.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -1130,9 +1130,9 @@ LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
 LaTeX Info: Redefining \nameref on input line 29.
 
-(./CPBS_Update_11_18.out) (./CPBS_Update_11_18.out)
+(./BackupSlides.out) (./BackupSlides.out)
 \@outlinefile=\write5
-\openout5 = `CPBS_Update_11_18.out'.
+\openout5 = `BackupSlides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 29.
@@ -1218,8 +1218,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 29.
 
-(./CPBS_Update_11_18.nav)
-<../../Figures/lablogo.png, id=55, 48.18pt x 49.1436pt>
+(./BackupSlides.nav) <../../Figures/lablogo.png, id=48, 48.18pt x 49.1436pt>
 File: ../../Figures/lablogo.png Graphic file (type png)
 
 <use ../../Figures/lablogo.png>
@@ -1249,257 +1248,256 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 [4
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 128.
+LaTeX Font Info:    Try loading font information for U+msa on input line 147.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 128.
+LaTeX Font Info:    Try loading font information for U+msb on input line 147.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 128.
+line 147.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) <../../Figures/phage.png, id=223, 1204.5pt x 1469.49pt>
+) <../../Figures/phage.png, id=181, 1204.5pt x 1469.49pt>
 File: ../../Figures/phage.png Graphic file (type png)
 
 <use ../../Figures/phage.png>
-Package pdftex.def Info: ../../Figures/phage.png used on input line 128.
+Package pdftex.def Info: ../../Figures/phage.png used on input line 147.
 (pdftex.def)             Requested size: 142.25475pt x 156.4872pt.
  [5
 
  <../../Figures/phage.png>]
-<../../Figures/CPBS_11_18/Overview.jpg, id=258, 1544.77126pt x 754.82pt>
-File: ../../Figures/CPBS_11_18/Overview.jpg Graphic file (type jpg)
+<../../Figures/CPBS_11_18/NJH_Protocol.jpg, id=209, 1579.9025pt x 626.34pt>
+File: ../../Figures/CPBS_11_18/NJH_Protocol.jpg Graphic file (type jpg)
 
-<use ../../Figures/CPBS_11_18/Overview.jpg>
-Package pdftex.def Info: ../../Figures/CPBS_11_18/Overview.jpg used on input li
-ne 135.
-(pdftex.def)             Requested size: 284.52893pt x 170.71404pt.
- [6
+<use ../../Figures/CPBS_11_18/NJH_Protocol.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/NJH_Protocol.jpg used on inpu
+t line 158.
+(pdftex.def)             Requested size: 312.96149pt x 142.2584pt.
 
- <../../Figures/CPBS_11_18/Overview.jpg>] [7
-
-] [8
-
-]
-<../../Figures/CPBS_11_18/lysogeny.jpg, id=361, 839.135pt x 851.18pt>
-File: ../../Figures/CPBS_11_18/lysogeny.jpg Graphic file (type jpg)
-
-<use ../../Figures/CPBS_11_18/lysogeny.jpg>
-Package pdftex.def Info: ../../Figures/CPBS_11_18/lysogeny.jpg used on input li
-ne 197.
-(pdftex.def)             Requested size: 142.25412pt x 156.47874pt.
- [9
-
- <../../Figures/CPBS_11_18/lysogeny.jpg>] <../../Figures/uniprot.png, id=395, 4
-81.8pt x 289.08pt>
-File: ../../Figures/uniprot.png Graphic file (type png)
-
-<use ../../Figures/uniprot.png>
-Package pdftex.def Info: ../../Figures/uniprot.png used on input line 222.
-(pdftex.def)             Requested size: 85.35284pt x 85.35725pt.
- [10
-
- <../../Figures/uniprot.png>]
-<../../Figures/Pipeline.png, id=429, 275.0275pt x 634.37pt>
-File: ../../Figures/Pipeline.png Graphic file (type png)
-
-<use ../../Figures/Pipeline.png>
-Package pdftex.def Info: ../../Figures/Pipeline.png used on input line 251.
-(pdftex.def)             Requested size: 85.35835pt x 170.71107pt.
- [11
-
- <../../Figures/Pipeline.png>]
-<../../Figures/Abundant_Phages_HMM_ID.jpg, id=466, 722.7pt x 722.7pt>
-File: ../../Figures/Abundant_Phages_HMM_ID.jpg Graphic file (type jpg)
-
-<use ../../Figures/Abundant_Phages_HMM_ID.jpg>
-Package pdftex.def Info: ../../Figures/Abundant_Phages_HMM_ID.jpg used on input
- line 271.
-(pdftex.def)             Requested size: 170.71672pt x 170.71672pt.
- [12
-
- <../../Figures/Abundant_Phages_HMM_ID.jpg>]
-<../../Figures/Abundant_Phages_Percentage.jpg, id=499, 505.89pt x 505.89pt>
-File: ../../Figures/Abundant_Phages_Percentage.jpg Graphic file (type jpg)
-
-<use ../../Figures/Abundant_Phages_Percentage.jpg>
-Package pdftex.def Info: ../../Figures/Abundant_Phages_Percentage.jpg used on i
-nput line 278.
-(pdftex.def)             Requested size: 199.17207pt x 199.17207pt.
- [13
-
- <../../Figures/Abundant_Phages_Percentage.jpg>]
-<../../Figures/Top_Phages_Plots.jpg, id=534, 722.7pt x 722.7pt>
-File: ../../Figures/Top_Phages_Plots.jpg Graphic file (type jpg)
-
-<use ../../Figures/Top_Phages_Plots.jpg>
-Package pdftex.def Info: ../../Figures/Top_Phages_Plots.jpg used on input line 
-285.
-(pdftex.def)             Requested size: 227.61862pt x 199.16766pt.
- [14
-
- <../../Figures/Top_Phages_Plots.jpg>] [15
-
-]
-<../../Figures/CPBS_11_18/weighted_graph.png, id=599, 1445.4pt x 722.7pt>
-File: ../../Figures/CPBS_11_18/weighted_graph.png Graphic file (type png)
-
-<use ../../Figures/CPBS_11_18/weighted_graph.png>
-Package pdftex.def Info: ../../Figures/CPBS_11_18/weighted_graph.png used on in
-put line 294.
-(pdftex.def)             Requested size: 284.53156pt x 199.16766pt.
- [16
-
- <../../Figures/CPBS_11_18/weighted_graph.png>] [17
-
-] [18
-
-] [19
-
-]
-<../../Figures/prophage.png, id=734, 1204.5pt x 1264.725pt>
-File: ../../Figures/prophage.png Graphic file (type png)
-
-<use ../../Figures/prophage.png>
-Package pdftex.def Info: ../../Figures/prophage.png used on input line 337.
-(pdftex.def)             Requested size: 142.25475pt x 99.57832pt.
- [20
-
- <../../Figures/prophage.png>]
-<../../Figures/dna.png, id=769, 602.25pt x 516.93124pt>
-File: ../../Figures/dna.png Graphic file (type png)
-
-<use ../../Figures/dna.png>
-Package pdftex.def Info: ../../Figures/dna.png used on input line 345.
-(pdftex.def)             Requested size: 142.26393pt x 113.8041pt.
- [21
-
- <../../Figures/dna.png>]
-<../../Figures/gc.png, id=802, 673.51625pt x 673.51625pt>
-File: ../../Figures/gc.png Graphic file (type png)
-
-<use ../../Figures/gc.png>
-Package pdftex.def Info: ../../Figures/gc.png used on input line 364.
-(pdftex.def)             Requested size: 199.16858pt x 142.26474pt.
- [22
-
- <../../Figures/gc.png>]
-<../../Figures/box_contigs.png, id=837, 821.0675pt x 183.68625pt>
-File: ../../Figures/box_contigs.png Graphic file (type png)
-
-<use ../../Figures/box_contigs.png>
-Package pdftex.def Info: ../../Figures/box_contigs.png used on input line 379.
-(pdftex.def)             Requested size: 142.26071pt x 85.35995pt.
- [23
-
- <../../Figures/box_contigs.png>]
-<../../Figures/BUD_Algorithm.jpg, id=871, 963.6pt x 542.025pt>
-File: ../../Figures/BUD_Algorithm.jpg Graphic file (type jpg)
-
-<use ../../Figures/BUD_Algorithm.jpg>
-Package pdftex.def Info: ../../Figures/BUD_Algorithm.jpg used on input line 394
-.
-(pdftex.def)             Requested size: 284.5242pt x 192.05217pt.
-
-Overfull \vbox (17.82866pt too high) detected at line 394
+Overfull \hbox (5.67162pt too wide) in paragraph at lines 158--158
+[][]  
  []
 
-[24
+[6
 
- <../../Figures/BUD_Algorithm.jpg>]
-<../../Figures/network.png, id=904, 1251.67625pt x 651.43375pt>
-File: ../../Figures/network.png Graphic file (type png)
+ <../../Figures/CPBS_11_18/NJH_Protocol.jpg>]
+<../../Figures/CPBS_11_18/Issues.jpg, id=236, 803.0pt x 639.38875pt>
+File: ../../Figures/CPBS_11_18/Issues.jpg Graphic file (type jpg)
 
-<use ../../Figures/network.png>
-Package pdftex.def Info: ../../Figures/network.png used on input line 404.
-(pdftex.def)             Requested size: 312.97559pt x 170.71068pt.
+<use ../../Figures/CPBS_11_18/Issues.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/Issues.jpg used on input line
+ 178.
+(pdftex.def)             Requested size: 156.49248pt x 142.26598pt.
 
-Overfull \hbox (5.68571pt too wide) in paragraph at lines 404--404
+Overfull \hbox (2.84755pt too wide) in paragraph at lines 178--178
+[][]  
+ []
+
+[7
+
+ <../../Figures/CPBS_11_18/Issues.jpg>]
+<../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg, id=263, 1773.62625pt x 49
+8.86375pt>
+File: ../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg Graphic file (type jp
+g)
+ <use ../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg us
+ed on input line 189.
+(pdftex.def)             Requested size: 312.96027pt x 113.80757pt.
+
+Overfull \hbox (5.6704pt too wide) in paragraph at lines 189--189
+ [] 
+ []
+
+[8
+
+ <../../Figures/CPBS_11_18/Gene_Database_Workflow.jpg>]
+<../../Figures/CPBS_11_18/Selection_Protocol.jpg, id=290, 1400.23125pt x 991.70
+5pt>
+File: ../../Figures/CPBS_11_18/Selection_Protocol.jpg Graphic file (type jpg)
+ <use ../../Figures/CPBS_11_18/Selection_Protocol.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/Selection_Protocol.jpg used o
+n input line 197.
+(pdftex.def)             Requested size: 312.96596pt x 199.16975pt.
+
+Overfull \hbox (5.67609pt too wide) in paragraph at lines 197--197
+ [] 
+ []
+
+
+Overfull \vbox (4.78926pt too high) detected at line 197
+ []
+
+[9
+
+ <../../Figures/CPBS_11_18/Selection_Protocol.jpg>] [10
+
+]
+<../../Figures/CPBS_11_18/Pipeline_Tree.jpg, id=344, 1337.99875pt x 585.18625pt
+>
+File: ../../Figures/CPBS_11_18/Pipeline_Tree.jpg Graphic file (type jpg)
+ <use ../../Figures/CPBS_11_18/Pipeline_Tree.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/Pipeline_Tree.jpg used on inp
+ut line 240.
+(pdftex.def)             Requested size: 312.9802pt x 113.81172pt.
+
+Overfull \hbox (5.69032pt too wide) in paragraph at lines 240--240
+[][]  
+ []
+
+
+Overfull \vbox (29.22095pt too high) detected at line 240
+ []
+
+[11
+
+ <../../Figures/CPBS_11_18/Pipeline_Tree.jpg>]
+<../../Figures/CPBS_11_18/Tree2.jpg, id=370, 1340.00626pt x 877.2775pt>
+File: ../../Figures/CPBS_11_18/Tree2.jpg Graphic file (type jpg)
+
+<use ../../Figures/CPBS_11_18/Tree2.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/Tree2.jpg used on input line 
+247.
+(pdftex.def)             Requested size: 312.9795pt x 227.61826pt.
+
+Overfull \hbox (5.68964pt too wide) in paragraph at lines 247--247
+[]  
+ []
+
+
+Overfull \vbox (13.63776pt too high) detected at line 247
+ []
+
+[12
+
+ <../../Figures/CPBS_11_18/Tree2.jpg>] [13
+
+]
+<../../Figures/ribosome.jpg, id=423, 949.5475pt x 1272.755pt>
+File: ../../Figures/ribosome.jpg Graphic file (type jpg)
+
+<use ../../Figures/ribosome.jpg>
+Package pdftex.def Info: ../../Figures/ribosome.jpg used on input line 301.
+(pdftex.def)             Requested size: 142.2521pt x 156.4722pt.
+ [14
+
+ <../../Figures/ribosome.jpg>]
+<../../Figures/CPBS_11_18/primers.jpg, id=450, 554.07pt x 229.85875pt>
+File: ../../Figures/CPBS_11_18/primers.jpg Graphic file (type jpg)
+
+<use ../../Figures/CPBS_11_18/primers.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/primers.jpg used on input lin
+e 321.
+(pdftex.def)             Requested size: 142.26247pt x 85.35855pt.
+ [15
+
+ <../../Figures/CPBS_11_18/primers.jpg>] [16
+
+]
+<../../Figures/CPBS_11_18/simulated.jpg, id=502, 644.4075pt x 893.3375pt>
+File: ../../Figures/CPBS_11_18/simulated.jpg Graphic file (type jpg)
+
+<use ../../Figures/CPBS_11_18/simulated.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/simulated.jpg used on input l
+ine 344.
+(pdftex.def)             Requested size: 199.16446pt x 199.16568pt.
+
+Overfull \vbox (12.22293pt too high) detected at line 344
+ []
+
+[17
+
+ <../../Figures/CPBS_11_18/simulated.jpg>]
+<../../Figures/CPBS_11_18/duo_pipe.jpg, id=528, 1277.77374pt x 850.17625pt>
+File: ../../Figures/CPBS_11_18/duo_pipe.jpg Graphic file (type jpg)
+
+<use ../../Figures/CPBS_11_18/duo_pipe.jpg>
+Package pdftex.def Info: ../../Figures/CPBS_11_18/duo_pipe.jpg used on input li
+ne 353.
+(pdftex.def)             Requested size: 312.96957pt x 227.61774pt.
+
+Overfull \hbox (5.6797pt too wide) in paragraph at lines 353--353
+ [] 
+ []
+
+
+Overfull \vbox (19.09259pt too high) detected at line 353
+ []
+
+[18
+
+ <../../Figures/CPBS_11_18/duo_pipe.jpg>] [19
+
+]
+<../../Figures/mosaic.png, id=582, 1477.52pt x 1156.32pt>
+File: ../../Figures/mosaic.png Graphic file (type png)
+
+<use ../../Figures/mosaic.png>
+Package pdftex.def Info: ../../Figures/mosaic.png used on input line 395.
+(pdftex.def)             Requested size: 142.25964pt x 156.48463pt.
+ [20
+
+ <../../Figures/mosaic.png (PNG copy)>]
+[21
+
+] [22
+
+] [23
+
+] <../../Figures/goals.jpg, id=685, 1053.9375pt x 223.83624pt>
+File: ../../Figures/goals.jpg Graphic file (type jpg)
+
+<use ../../Figures/goals.jpg>
+Package pdftex.def Info: ../../Figures/goals.jpg used on input line 443.
+(pdftex.def)             Requested size: 284.53476pt x 56.905pt.
+ [24
+
+ <../../Figures/goals.jpg>]
+<../../Figures/acknowledgement.jpg, id=714, 1329.96875pt x 680.5425pt>
+File: ../../Figures/acknowledgement.jpg Graphic file (type jpg)
+
+<use ../../Figures/acknowledgement.jpg>
+Package pdftex.def Info: ../../Figures/acknowledgement.jpg used on input line 4
+51.
+(pdftex.def)             Requested size: 312.96887pt x 199.16951pt.
+
+Overfull \hbox (5.679pt too wide) in paragraph at lines 451--451
 [][]  
  []
 
 [25
 
- <../../Figures/network.png>] [26
-
-]
-<../../Figures/fig.png, id=972, 1261.71375pt x 368.37625pt>
-File: ../../Figures/fig.png Graphic file (type png)
-
-<use ../../Figures/fig.png>
-Package pdftex.def Info: ../../Figures/fig.png used on input line 437.
-(pdftex.def)             Requested size: 227.61848pt x 113.8076pt.
-
-Overfull \vbox (2.18544pt too high) detected at line 437
- []
-
-[27
-
- <../../Figures/fig.png>] [28
-
-]
-<../../Figures/mosaic.png, id=1041, 1477.52pt x 1156.32pt>
-File: ../../Figures/mosaic.png Graphic file (type png)
-
-<use ../../Figures/mosaic.png>
-Package pdftex.def Info: ../../Figures/mosaic.png used on input line 480.
-(pdftex.def)             Requested size: 142.25964pt x 156.48463pt.
- [29
-
- <../../Figures/mosaic.png (PNG copy)>]
-[30
-
-] [31
-
-] [32
-
-] [33
-
-] [34
-
-] [35
-
-]
-<../../Figures/CPBS_11_18/Acknowledgements.jpg, id=1272, 1017.8025pt x 707.6437
-5pt>
-File: ../../Figures/CPBS_11_18/Acknowledgements.jpg Graphic file (type jpg)
- <use ../../Figures/CPBS_11_18/Acknowledgements.jpg>
-Package pdftex.def Info: ../../Figures/CPBS_11_18/Acknowledgements.jpg used on 
-input line 543.
-(pdftex.def)             Requested size: 284.53238pt x 199.16469pt.
- [36
-
- <../../Figures/CPBS_11_18/Acknowledgements.jpg>]
+ <../../Figures/acknowledgement.jpg>]
 File: ../../Figures/lablogo.png Graphic file (type png)
  <use ../../Figures/lablogo.png>
-Package pdftex.def Info: ../../Figures/lablogo.png used on input line 549.
+Package pdftex.def Info: ../../Figures/lablogo.png used on input line 457.
 (pdftex.def)             Requested size: 56.90553pt x 56.90836pt.
- [37
+
+[26
 
 ]
 \tf@nav=\write6
-\openout6 = `CPBS_Update_11_18.nav'.
+\openout6 = `BackupSlides.nav'.
 
 \tf@toc=\write7
-\openout7 = `CPBS_Update_11_18.toc'.
+\openout7 = `BackupSlides.toc'.
 
 \tf@snm=\write8
-\openout8 = `CPBS_Update_11_18.snm'.
+\openout8 = `BackupSlides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 554.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 554.
-
-(./CPBS_Update_11_18.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 554.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 554.
-Package rerunfilecheck Info: File `CPBS_Update_11_18.out' has not changed.
-(rerunfilecheck)             Checksum: 00BD77A0300A32F0CBB6511F7F632352;181.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 465.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 465.
+ (./BackupSlides.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 465.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 465.
+Package rerunfilecheck Info: File `BackupSlides.out' has not changed.
+(rerunfilecheck)             Checksum: 72167832FCFEDA65BB10D24A107A238A;170.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1510,26 +1508,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18086 strings out of 492995
- 338071 string characters out of 6132704
- 432188 words of memory out of 5000000
- 21097 multiletter control sequences out of 15000+600000
- 15581 words of font info for 45 fonts, out of 8000000 for 9000
+ 18037 strings out of 492995
+ 337495 string characters out of 6132704
+ 421489 words of memory out of 5000000
+ 21073 multiletter control sequences out of 15000+600000
+ 16356 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,56p,803b,765s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,56p,798b,755s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></usr
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss0600.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb>
-Output written on CPBS_Update_11_18.pdf (37 pages, 3976833 bytes).
+al/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on BackupSlides.pdf (26 pages, 3026470 bytes).
 PDF statistics:
- 1392 PDF objects out of 1440 (max. 8388607)
- 1268 compressed objects within 13 object streams
- 86 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 810 PDF objects out of 1000 (max. 8388607)
+ 722 compressed objects within 8 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

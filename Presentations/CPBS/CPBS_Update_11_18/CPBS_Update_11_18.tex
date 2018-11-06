@@ -15,7 +15,7 @@
 
 \author{Cody Glickman  \\ CPBS Update Talk}
 
-\title{Metagenomic Exploration the Sequel: \\ Development of novel tools for viral and bacterial sequence analysis}
+\title{Metagenomic Exploration the Sequel: \\ Development of tools for viral and bacterial sequence analysis}
 
 %\subtitle{}
 %\logo{}
@@ -28,40 +28,44 @@
 
 \begin{document}
 	\maketitle
-	\begin{frame}{Research Update}
-	\begin{block}{\alert{Clinical NTM Gene Databases}}
-	Submitted ...
-	https://mra.asm.org/latest 
-	\end{block}
-	
-	\begin{block}{\alert{Duobiome: 18S/16S Parallel Analysis}}
-	In progress
-	\end{block}
-	
-	\begin{block}{\alert{Hybrid Viral Contig Prediction}}
-	In progress
-	\end{block}
-	
-	\begin{block}{\alert{Virulence Factors in Bacteriophages}}
-	Submitted ...
-	\end{block}
-	\end{frame}
-	
-	\begin{frame}{Progress of Other Projects}
-	\begin{block}{Asthma Environmental Microbiome}
-	Submitted abstract to ATS
+
+  %------------------------------------------------------------------ Outline
+	\begin{frame}{Research Update Outline}
+	\begin{block}{Virulence Factors in Bacteriophages}
+	\tiny{Glickman C., Hendrix J., Strong M. Computational identification and analysis of bacterial virulence factors embedded into bacteriophage genomes. Poster session accepted at: Rocky 18: 2018 Dec 8-10; Snowmass, CO}
 	\end{block}
 	
 	\begin{block}{Building Up Domains: Lysogenic Host Discovery}
-	Incorporated into large collaborative NCBI initative
+  Incorporated into NCBI's Virus Discovery Project
+	\end{block}
+
+	\begin{block}{Hybrid Viral Contig Prediction}
+	\tiny{Glickman C., Strong M. Hybrid Viral Identification in Metagenomics. In preperation: Early 2019}
+	\end{block}
+	\end{frame}
+	%------------------------------------------------------------------
+	\begin{frame}{Progress of Other Projects}
+	\begin{block}{Asthma Environmental Microbiome}
+	\tiny{Koon P., Glickman C., Epperson L.E., Strong M., Clemente J.C., Vicencio A., Diette G., Bose S. Household determinants of the indoor environmental microbiome in an urban asthmatic population. Poster submitted: ATS 2019: 2019 May 17-22; Dallas, TX}
+ 
 	\end{block}
 	
+		
+	\begin{block}{Clinical NTM Gene Databases}
+	\tiny{Glickman C., Epperson L.E., Hasan N., Strong M. Clinical NTM Gene Database. In preperation: Late 2018}
+	\end{block}
+	
+	\begin{block}{Duobiome: 18S/16S Parallel Analysis}
+	\tiny{Glickman C., Russell P., Epperson L.E., Strong M. DuoBiome: A workflow for mixed metagenomes. In preperation: Early 2019}
+	\end{block}
+	
+	
 	\begin{block}{Genomic Retrieval and Blast Database Creation}
-	Accepted Poster ISME 2018
+	\tiny{Glickman C., Strong M. Batch retrieval and BLAST database creation tool. Poster session accepted at: Modelling microbial communities and functions. ISME 17: 2018 Aug 12-17; Leipzig, Germany}
 	\end{block}
 	
 	\begin{block}{Hawaiian Soil Chemistry and Culture}
-	Submitted ...
+	\tiny{Glickman C., Virdi R., Epperson L.E., Strong M., Nelson S., Honda J. Relationship Between Soil Mineral Characteristics and Non-Tuberculosis Mycobacterium Growth. In preperation: Early 2019}
 	\end{block}
 	
 
@@ -71,25 +75,6 @@
 
 
 	\begin{frame}{Nontuberculous Mycobacterial (NTM) Infections}
-	
-	  Scamatic to tie it together with goals, work on transitions, revelence and relatedness, 
-	  
-	  Restucture the organization of talk,
-	  
-	  Focuses on mycobacteriobal/
-	  
-	  Funnel/ 
-	  
-	  Concluding picture
-	  Lung, virus, bacteria, human
-	  
-	  Database, Phage, Microbiome
-	  
-	  lead with gene database and phage virulence
-	  
-	  Presented/
-	  Layer with submissions and iterating on this 
-	  
 	  
 		\begin{block}{Number of Cases}
 		The number of NTM cases is estimated over 100K
@@ -118,26 +103,7 @@
 	
 	\end{frame}
 	%----------------------------------------------------------
-	% \begin{frame}{Laboratory Research Methods}
-	% \begin{block}{Conditions for NTM Environmental Growth}
-	% Identifying important characteristics for NTM growth 
-	% \end{block}
-	% 
-	% \begin{block}{Environmental Microbiome}
-	% Developing methods to characterize patient environments
-	% \end{block}
-	% 
-	% \begin{block}{Clinical NTM}
-	% \begin{itemize}
-	% \item Developing resources to study clinical NTM
-	% \item Identifying potential mechanisms of NTM transmission
-	% \end{itemize}
-	% \end{block}
-	% 
-	% 
-	% \end{frame}
-	
-	%-----------------------------------------------------------
+
 	\begin{frame}{Viral Focus}
 	\begin{columns}
 	\column{0.5\textwidth}
@@ -145,14 +111,12 @@
 	Phages are DNA viruses that infect prokaryotes
 	\end{block}
 	
-	Effects
-	
 	\begin{block}{Phage Diversity}
-	Investigating how phage abundance and diversity affect susceptibility to NTM lung infection
+	How phage abundance and diversity effects susceptibility to NTM lung infection
 	\end{block}
 	
-	\begin{block}{Phage Vectors}
-	Researching how phages act as carriers of bacterial genes within clinical NTM infections
+	\begin{block}{Phages as Vectors}
+	How phages carry bacterial genes within clinical NTM infections
 	\end{block}
 	
 	
@@ -164,248 +128,31 @@
 	\end{frame}
 	%-----------------------------------------------------------
 
-	%-----------------------------------------------------------
 	\begin{frame}{Objective}
 	\center
-	\includegraphics[height=6cm, width=9cm]{objective.jpg}
+	\includegraphics[height=6cm, width=10cm]{CPBS_11_18/Overview.jpg}
 	
 	\end{frame}
 
 %-----------------------------------------------------------
 	
-\section{Clinical NTM Gene Databases}
-\subsection{}
-	\begin{frame}{Species Identification of NTM at NJH}
-  \begin{block}{Clinical NTM Gene Database}
-  Developed updated database to characterize clinical NTM
-  \end{block}
-	\includegraphics[height=5cm, width=11cm]{CPBS_11_18/NJH_Protocol.jpg}
-	
-	\end{frame}
-	%-----------------------------------------------------------
-	\begin{frame}{Limitations of Current Methods}
-	
-	\begin{columns}
-	\column{0.5\textwidth}
-	\includegraphics[height=5cm, width=5.5cm]{CPBS_11_18/Issues.jpg}
-	\column{0.5\textwidth}
-	\begin{block}{Redundant Records}
-	Sequences between species are indistinguishable at the gene level
-	\end{block}
-	\begin{block}{Mislabeled Species}
-	Naming conventions are constantly updated
-	\end{block}
-	\begin{block}{Different Regions}
-	Current protocols amplify a specific region of gene
-	\end{block}
-	\end{columns}
-	
-	%\tiny{Sczyrba, A., et al. Nature Methods 2017}
-	\end{frame}
-	%-----------------------------------------------------------
-  \begin{frame}{Curated Gene Databases}
-  
-  Talk with Elaine (rpoB)
-  Mycobacteriology lab depends on targets for sequencing
-  Creating a more efficent database
-  \begin{block}{Number of Sequences per Species}
-  Currenlty only two sequences per species are deposited into curated database
-  \end{block}
-  \center
-  \includegraphics[height=4cm, width=11cm]{CPBS_11_18/Gene_Database_Workflow.jpg}
-  \end{frame}
 
-
-%-----------------------------------------------------------
-  \begin{frame}{Selection Protocol}
-  \center
-  Culture Collection, internationally recognized strains, deposited in multiple locations
-  \includegraphics[height=7cm, width=11cm]{CPBS_11_18/Selection_Protocol.jpg}
-  \end{frame}
-%-----------------------------------------------------------
-  \begin{frame}{Clinical Gene Databases}
-  \begin{table}[]
-  \begin{tabular}{|l|l|l|}
-  \hline
-  {\ul \textbf{Gene}} & {\ul \textbf{Region Size}} & {\ul \textbf{Unique Species}} \\     \hline
-  hsp65 & 382 bases & 185 \\ \hline
-  rpoB & 657 bases & 134 \\ \hline
-  16s rRNA & 1470 bases & 184 \\ \hline
-  \end{tabular}
-  \caption{Table 1 highlights the regions lengths and size of the respective databases}
-  \label{Test_Table}
-  \end{table}
-  \begin{block}{Species Overlap}
-  107 species overlap between all three databases
-  \end{block}
-  \end{frame}
-%-----------------------------------------------------------
-	\begin{frame}{Database Validation}
-	\vspace{-0.3cm}
-	\begin{block}{hsp65}
-	
-	remove species from our db
-	how many species 197 documented species 
-	
-	Actual species counts remove clusters
-	
-	
-	156 full length hsp65 genes compared against the hsp65 database
-	\begin{itemize}
-	\item 151/156 (96.73\%) returned the exact species
-	\item 2/5 are in the top 5 hits \& 2/5 missing from database
-	\end{itemize}
-	\end{block}
-	\vspace{-0.3cm}
-	\begin{block}{Tree Comparison}
-	\includegraphics[height=4cm, width=11cm]{CPBS_11_18/Pipeline_Tree.jpg}
-	\end{block}
-	\vspace{-0.3cm}
-	\begin{table}[]
-  \begin{tabular}{|l|l|l|l|l|l|}
-  \hline
-  {\ul \textbf{E.Size}} & {\ul \textbf{nRF}} & {\ul \textbf{RF}} & {\ul \textbf{maxRF}}   & {\ul \textbf{scr-br}} & {\ul \textbf{ref-br}} \\ \hline
-  153 & 0.90 & 220 & 244 & \cellcolor[HTML]{FCFF2F}0.59 & \cellcolor[HTML]{F8FF00}{\color[HTML]{000000} 0.61} \\ \hline
-  \end{tabular}
-  \end{table}
-	
-	\tiny{Dai, J, et al. J Clin Microbiol. 2011}
-	\end{frame}
-	
-
-	%-----------------------------------------------------------
-	\begin{frame}{rpoB-hsp65 Tree}
-	
-	rings around edges and lines for colors
-	\includegraphics[height=8cm, width=11cm]{CPBS_11_18/Tree2.jpg}
-	\end{frame}
-
-%-----------------------------------------------------------
-	\begin{frame}{Conclusions and Future Directions}
-	
-	\begin{block}{Representation}
-	The subsetted databases are highly representative of prior published works
+\section{}
+%------------------------------------------------------------------ Outline
+	\begin{frame}{Research Update Outline}
+	\begin{block}{Virulence Factors in Bacteriophages}
+	\tiny{Glickman C., Hendrix J., Strong M. Computational identification and analysis of bacterial virulence factors embedded into bacteriophage genomes. Poster session accepted at: Rocky 18: 2018 Dec 8-10; Snowmass, CO}
 	\end{block}
 	
-	\begin{block}{Benefits of Curated Database}
-	\begin{itemize}
-	\item Aligned sequences to shared region
-	\item Preferentially selected established culture codes
-	\item Condensed and explicitly labeled ambiguous sequences 
-  \end{itemize}
-	\end{block}
-	
-	\begin{block}{Limitations}
-	Size of the gene regions in databases may not differentiate between species or subspecies in this version
-	\end{block}
-	
-	\tiny{Dai, J, et al. J Clin Microbiol. 2011 \\ Tortoli, E, et al. Infections, Genetics, and Evolution 2017}
-  \end{frame}
-%-----------------------------------------------------------
-
-\section{Duobiome}
-\subsection{}
-
-	
-	\begin{frame}{Microbiome}
-	\begin{columns}
-	\column{0.5\textwidth}
-	\begin{block}{16S Ribosomal RNA Sequencing}
-	\begin{itemize}
-		\item Amplifies a region of gene
-		\item Community level analysis 
-	\end{itemize}
-	\end{block}
-		
-		
-	\begin{block}{Traditional Limitations}
-	\begin{itemize}
-		\item Multiple copies of 16S
-		\item \alert{Prokaryotic specific}
-	\end{itemize}
-	\end{block}
-	
-	\column{0.5\textwidth}
-	\includegraphics[height=5.5cm, width=5cm]{ribosome.jpg} \\
-	\tiny{Yarza, P., et al. Nature Reviews Microbiology 2014}
-	\end{columns}
-	Talk more about 16 sequencing sequencing
-	
-	Trash can analogy with 
-	Merged vs unmerged templates that is why we wouldnt get merged reads
-	
-	
-	\end{frame}
-	%-----------------------------------------------------------
-	\begin{frame}{Degenerate Primers}
-	\begin{columns}
-	926 R
-	
-	\column{0.5\textwidth}
-	\begin{block}{Degenerate Primer Example}
-	\includegraphics[height=3cm, width=5cm]{CPBS_11_18/primers.jpg}
-	\end{block}
-	\column{0.5\textwidth}
-	\begin{block}{Feature of Degenerate Primers}
-	Dual amplification of eukaryotic (18S) and prokaryote (16S)
-	\end{block}
-	\begin{block}{Universal 16S/18S Primer}
-	515F - 806R primer
-	\end{block}
-	\end{columns}
-	\tiny{Caporaso, J.G., et al. PNAS 2011 \\ Wang, Y., et al. PLOS One 2014}
-
-	\end{frame}
-	%-----------------------------------------------------------
-	\begin{frame}{Objective}
-	Develop an optimized pipeline to accurately describe composition of an environmental sample.
-	\begin{block}{Methods Testing}
-	\begin{itemize}
-	\item Standard OTU Picking with expanded database
-	\item Error correction with expanded database
-	\item Filtering 18S by merging status and parallel processing
-	\end{itemize}
-	\end{block}
-	\end{frame}
-	%-----------------------------------------------------------
-	\begin{frame}{Simulated Metagenome}
-	\center
-	\includegraphics[height=7cm, width=7cm]{CPBS_11_18/simulated.jpg}
-	\begin{flushright}
-	
-	not using mutation, used three different composition
-	
-	
-	\tiny{Pamela Russell \\ Angly, F.E., et al. Nucleic acids research 2012}
-	\end{flushright}
-	\end{frame}
-	%-----------------------------------------------------------
-	\begin{frame}{Testing pipelines}
-	\vspace{-0.5cm}
-	\center
-	\includegraphics[height=8cm, width=11cm]{CPBS_11_18/duo_pipe.jpg}
-	\begin{flushright}
-	\tiny{Callahan, B. J., et al. Nature Methods 2016}
-	\end{flushright}
-	
-	\end{frame}
-	%-----------------------------------------------------------
-	\begin{frame}{Results}
-	Coming Soon
-	\end{frame}
-	%-----------------------------------------------------------
-	\begin{frame}{Conclusions and Future Directions}
-	\begin{block}{Discussion}
-	
-	\end{block}
-	
-	\begin{block}{Qiime2 Add-on}
+	\begin{block}{\textcolor{black!50}{Building Up Domains: Lysogenic Host Discovery}}
+  \textcolor{black!50}{Incorporated into NCBI's Virus Discovery Project}
 	\end{block}
 
+	\begin{block}{\textcolor{black!50}{Hybrid Viral Contig Prediction}}
+	\textcolor{black!50}{\tiny{Glickman C., Strong M. Hybrid Viral Identification in Metagenomics. In preperation: Early 2019}}
+	\end{block}
 	\end{frame}
-	
-	
-
+%------------------------------------------------------------------
 \section{Virulence Factors in Phages}
 \subsection{}
 	
@@ -426,39 +173,14 @@
 	\end{frame}
 	%--------------------------------------------------------------------------------------
 
-	\begin{frame}{Bacterial Virulence Factors Increase Pathogenesis}
-	\begin{columns}
-	\column{0.65\textwidth}
-	\begin{block}{Examples of Virulence Factors}
-		\begin{itemize}
-		Genes that may facilitate invasion and evasion 
-		\item Increased fitness for nutrients
-		\item Host immunity resistance
-		\item Toxin secretion
-		\end{itemize}
-	\end{block} 
-	
-	\begin{block}{Diseases from Virulence Factors}
-	Cholera, dysentery, botulism, and food poisoning
-	\end{block}
-	
 
-	\column{0.4\textwidth}
-	\includegraphics[height=3cm, width=5cm]{cholera.png}
-
-	\vspace{-0.3cm}
-	\hspace{0.5cm}	
-	\tiny{PDB Structure of Cholera Toxin}
-	\end{columns}
-	
-	\end{frame}
 	
 	%--------------------------------------------------------------------------------------
 	
 	\begin{frame}{Phages as a Genetic Reservoir \\ of Virulence Factors Genes}
 	\begin{columns}
 	\column{0.5\textwidth}
-	
+	\vspace{-1cm}
 	\begin{block}{Phages and Pathology}
 	Virulence Factors that cause cholera, dysentery, botulism, and food poisoning are carried on phage elements.
 	\end{block}
@@ -467,9 +189,9 @@
 	\includegraphics[height=5.5cm, width=5cm]{CPBS_11_18/lysogeny.jpg} \\
 	\hspace{0.5cm}	
 	\end{columns}
-	
+	\vspace{-1cm}
 	\begin{block}{Objective}
-	Characterize the abundance of bacterial virulence factors in phages
+	Characterize the abundance of bacterial virulence factors within phages
 	\end{block}
 	
 	\end{frame}
@@ -521,8 +243,6 @@
 	Genera abundance greater than 30
 	\end{block}
 	
-	virulence factors in genome vs phage genome
-	
 	\column{0.2\textwidth}
 	\hspace{-2cm}
 	\includegraphics[height=6cm, width=3cm]{Pipeline.png}
@@ -560,9 +280,6 @@
 	%-----------------------------------------	
 	\begin{frame}{Abundant Phage Distributions by Genera Name}
 	\centering
-	
-	"n=  "
-	genus
 	\includegraphics[height=7cm, width=8cm]{Top_Phages_Plots.jpg}
 	
 	\end{frame}
@@ -579,15 +296,169 @@
 	\begin{frame}{Comparison to Integrated Phages from Clinical NTM}
 
 	\end{frame}
-	
+	%------------------------------------------------------------------
 	\begin{frame}{Conclusions and Future Directions}
 	
 	\end{frame}
+	%------------------------------------------------------------------
 	
+	
+\section{}
+	\begin{frame}{Research Update Outline}
+	\begin{block}{\textcolor{black!50}{Virulence Factors in Bacteriophages}}
+	\textcolor{black!50}{\tiny{Glickman C., Hendrix J., Strong M. Computational identification and analysis of bacterial virulence factors embedded into bacteriophage genomes. Poster session accepted at: Rocky 18: 2018 Dec 8-10; Snowmass, CO}}
+	\end{block}
+	
+	\begin{block}{Building Up Domains: Lysogenic Host Discovery}
+  Incorporated into NCBI's Virus Discovery Project
+	\end{block}
+
+	\begin{block}{\textcolor{black!50}{Hybrid Viral Contig Prediction}}
+	\textcolor{black!50}{\tiny{Glickman C., Strong M. Hybrid Viral Identification in Metagenomics. In preperation: Early 2019}}
+	\end{block}
+	\end{frame}
+	
+\section{Building Up Domains}
+\subsection{}
+	
+	\begin{frame}{Endogenous Viral Elements (Prophages)}
+	\begin{block}{Lysogenic Life Cycle}
+	Viruses can integrate into host for an extended period of time
+	\center
+	\vspace{-0.2cm}
+	\includegraphics[height=3.5cm, width=5cm]{prophage.png}
+	\end{block}
+	\begin{block}{Importance of Prophages}
+	Prophages can confer advantages to host improving survival \\ 
+	Prophages are important to the emergence of pathogenic bacteria
+	\end{block}
+	
+	\tiny{Canchaya C., et al. Curr Opin Microbiol 2003 \\ Wagner PL. \& Waldor MK. Infect Immune 2002}
+	\end{frame}
+%------------------------------------------------------------------
+	\begin{frame}{Finding Prophages}
+	\begin{block}{Prophage Discovery Problem}
+	Same difficulties as gene prediction: finding signal in data
+	\center
+	\includegraphics[height=4cm, width=5cm]{dna.png}
+	\end{block}
+	\end{frame}
+%------------------------------------------------------------------	
+	\begin{frame}{Prophage Discovery Tools}
+	\begin{block}{Current Methods Use}
+	\begin{itemize}
+	\begin{columns}
+	\column{0.5\textwidth}
+	\item Sequence similarity
+	\item Hidden Markov models 
+	\item Transcription direction
+	\column{0.5\textwidth}
+	\item Protein length
+	\item Sliding window GC content
+	\item Phage specific kmer
+	\end{columns}
+	\end{itemize}
+	\center
+	\includegraphics[height=5cm, width=7cm]{gc.png}
+	\end{block}
+	\end{frame}
+	%------------------------------------------------------------------
+	\begin{frame}{Prophage Discovery Methods}
+	\begin{block}{Top Down Methods}
+	All prophage discovery methods find prophages within contiguous sequences or genomes
+	\center
+	\includegraphics[height=3cm, width=5cm]{box_contigs.png}
+	\end{block}
+	
+	
+	\begin{block}{Potential Prophage Tool Pitfalls}
+	Metagenomic sequencing produces short contigs that are discarded in current discovery methods
+	\end{block}
+	
+	
+	\end{frame}
+	%------------------------------------------------------------------
+
+	
+	\begin{frame}{Building Up Domains (BUD) Algorithm}
+	\begin{block}{Initialization}
+	\begin{itemize}
+	\item Metagenomic reads are filtered by BLAST against Viral RefSeq
+	\item BLAST hits are assembled into contigs
+	\end{itemize}
+	\end{block}
+	\vspace{-0.5cm}
+	\center
+	\includegraphics[height=6.75cm, width=10cm]{BUD_Algorithm.jpg}
+	
+	\end{frame}
+	%------------------------------------------------------------------
+	\begin{frame}{Potential Uses of BUD}
+
+	\begin{block}{Expanding Known Phage Host Range}
+	BUD has the potential to identify novel hosts for prophages
+	
+	\includegraphics[height=6cm, width=11cm]{network.png}
+	\end{block}
+	
+	\end{frame}
+	%------------------------------------------------------------------
+	\begin{frame}{Current Implementations of BUD}
+	\begin{block}{ViruSpy}
+	\begin{itemize}
+	\item Originally written for NCBI Hackathon
+	\item BUD Algorithm written in Perl and BASH
+	\item Utilized Magic-BLAST for streaming of reads 
+	\end{itemize}
+	\end{block}
+	
+	\begin{block}{EndoVir}
+	NCBI Collaborators Jan Buchman and Ben Busby \\ 
+	\begin{itemize}
+	\item Written in Python
+	\item Implementation of BUD with Magic-BLAST
+	\end{itemize}
+	\end{block}
+	\end{frame}
+	%------------------------------------------------------------------
+	\begin{frame}{Future Directions}
+	\begin{block}{Overlap Consensus BUD}
+	Create a version of BUD for local metagenomic sequences 
+	\end{block}
+	
+	\begin{block}{Testing Performance of BUD}
+	Using the simulated dataset from previous study to compare the performance of identifying prophages by current tools against BUD
+	\center
+	\includegraphics[height=4cm, width=8cm]{fig.png}
+	\\
+	\vspace{0.5cm}
+	\tiny{Roux, Simon, et al. PeerJ (2015)}
+	\end{block}
+	\end{frame}
+	%------------------------------------------------------------------
+	
+	
+\section{}
+%------------------------------------------------------------------ Outline
+	\begin{frame}{Research Update Outline}
+	\begin{block}{\textcolor{black!50}{Virulence Factors in Bacteriophages}}
+	\textcolor{black!50}{\tiny{Glickman C., Hendrix J., Strong M. Computational identification and analysis of bacterial virulence factors embedded into bacteriophage genomes. Poster session accepted at: Rocky 18: 2018 Dec 8-10; Snowmass, CO}}
+	\end{block}
+	
+	\begin{block}{\textcolor{black!50}{Building Up Domains: Lysogenic Host Discovery}}
+  \textcolor{black!50}{Incorporated into NCBI's Virus Discovery Project}
+	\end{block}
+
+	\begin{block}{Hybrid Viral Contig Prediction}
+	\tiny{Glickman C., Strong M. Hybrid Viral Identification in Metagenomics. In preperation: Early 2019}
+	\end{block}
+	\end{frame}
+	
+%------------------------------------------------------------------
 	
 \section{Hybrid Viral Contig Prediction}
 \subsection{}
-  Mycobacterium, Pseudomonas, Lactobacillus
+
 %-------------------------------------
   \begin{frame}{Metagenomics}
 	\begin{columns}
@@ -617,47 +488,45 @@
   Mapping to genomes, BLAST, and Hidden Markov Models
   \end{block}
   \begin{block}{Machine Learning Methods}
-  Linear discriminant analysis classier on sequence k-mer profiles
+  Linear discriminant analysis classifier on sequence k-mer profiles
   \end{block}
   \end{frame}
-  
+  %------------------------------------------------------------------
   \begin{frame}{Two-Step Hybrid Model}
   Insert Pipeline
   
   \end{frame}
-  
+  %------------------------------------------------------------------
   \begin{frame}{Methods}
   HMMs from Earth Virome
   
   Python developed model with standalone operability
   
   \end{frame}
-
+%------------------------------------------------------------------
   \begin{frame}{Performance Comparison Using CAMI}
 
 	\end{frame}
 	
-	
+	%------------------------------------------------------------------
 	\begin{frame}{Conclusions and Future Directions}
 
 	\end{frame}
-
+%------------------------------------------------------------------
 \section{}
-
+	
 	\begin{frame}{Concluding Remarks}
-	\center
-	\includegraphics[height=2cm, width=10cm]{goals.jpg}
 	\begin{columns}
 	\column{0.3\textwidth}
-	\begin{block}{DuoBiome}
+	\begin{block}{Virulence Factors in Bacteriophages}
 	Optimized methods to simultaneously explore eukaryotic and prokaryotic communties
 	\end{block}
 	\column{0.3\textwidth}
-	\begin{block}{Hybrid Viral Contig Prediction}
+	\begin{block}{Building Up Domains: Lysogenic Host Discovery}
 	A hybrid model to identify phage elements in metagenomics and connect them with bacteria
 	\end{block}
 	\column{0.3\textwidth}
-	\begin{block}{Virulence Factors in Phages}
+	\begin{block}{Hybrid Viral Contig Prediction}
 	First quantification of bacterial virulence factors within phage genomes
 	\end{block}
 	
@@ -665,24 +534,21 @@
 	
 	\end{frame}
 	
+	%------------------------------------------------------------------
 	
 	
-	
-	\begin{frame}{}
-	\vspace{1cm}
-	{\includegraphics[height=7cm, width=11cm]{acknowledgement.jpg} }
+	\begin{frame}{Acknowledgements}
+	\center
+	\includegraphics[height=7cm, width=10cm]{CPBS_11_18/Acknowledgements.jpg}
 	\end{frame}
-	
+	%------------------------------------------------------------------
 	
 	\begin{frame}{Questions?}
 	\center
 	Cody Glickman \\ \includegraphics[height=2cm, width=2cm]{lablogo.png} \\ cody.glickman@ucdenver.edu \\ \alert{www.github.com/glickmac} \\ www.codyglickman.com
 	\end{frame}
-	
-	%\begin{itemize}
-	%\item Prophages in bacterial reference genomes are well annotated
-	%\item Location in bacterial reference genome is well annotated
-	%\item find prophages in contigs and map contigs to reference.
+	%------------------------------------------------------------------
+
 	
 	
 \end{document}
