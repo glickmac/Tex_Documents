@@ -226,7 +226,7 @@
 	\begin{columns}
 	\column{0.7\textwidth}
 	\begin{block}{Sequence Annotation Methods}
-	BLAST and HMM
+	Hidden Markov Models due to variation \\ from rapid mutation rate
 	\end{block}
 	
 	\begin{block}{Normalizing By Gene Count}
@@ -256,16 +256,16 @@
 	\begin{columns}
 	\column{0.6\textwidth}
 	% Need to place figure
-	\includegraphics[height=6cm, width=6cm]{Abundant_Phages_HMM_ID.jpg}
+	\includegraphics[height=6cm, width=6cm]{CPBS_11_18/TopDomains.jpg}
 	\column{0.5\textwidth}
-	\begin{block}{MarR}
+	\begin{block}{MarR\_2/MarR}
 	Domain involved in antibiotic resistance
 	\end{block}
 	\begin{block}{DivIC}
 	Part of sporulation process
 	\end{block}
-	\begin{block}{LysM}
-	General peptidoglycan function
+	\begin{block}{GerE}
+	DNA binding domain found in virulence factors
 	\end{block}
 	\end{columns}
 	\end{frame}
@@ -273,14 +273,14 @@
 	%-----------------------------------------	
 	\begin{frame}{Distribution of Hit Percentage in All Phages}
 	\centering
-	\includegraphics[height=7cm, width=7cm]{Abundant_Phages_Percentage.jpg}
+	\includegraphics[height=7cm, width=7cm]{CPBS_11_18/AbundantPhageTotal.jpg}
 	
 	\end{frame}
 	
 	%-----------------------------------------	
 	\begin{frame}{Abundant Phage Distributions by Genera Name}
 	\centering
-	\includegraphics[height=7cm, width=8cm]{Top_Phages_Plots.jpg}
+	\includegraphics[height=7cm, width=8cm]{CPBS_11_18/Abundances.jpg}
 	
 	\end{frame}
 	%-----------------------------------------	
@@ -288,13 +288,19 @@
 	Insert comparable image here
 	\end{frame}
 	%-----------------------------------------	
-	\begin{frame}{Network}
+	\begin{frame}{Full Top Domain Network}
 	\center
-	\includegraphics[height=7cm, width=10cm]{CPBS_11_18/weighted_graph.png}
+	\includegraphics[height=7cm, width=10cm]{CPBS_11_18/Network.jpg}
+	\end{frame}
+	
+	%-----------------------------------------
+	\begin{frame}{Pathogen Subset Domain Network}
+	\center
+	\includegraphics[height=7cm, width=10cm]{CPBS_11_18/Pathogenic.jpg}
 	\end{frame}
 	%-----------------------------------------
 	\begin{frame}{Comparison to Integrated Phages from Clinical NTM}
-
+  Describe
 	\end{frame}
 	%------------------------------------------------------------------
 	\begin{frame}{Conclusions and Future Directions}
@@ -426,17 +432,11 @@
 	Create a version of BUD for local metagenomic sequences 
 	\end{block}
 	
-	\begin{block}{Testing Performance of BUD}
-	Using the simulated dataset from previous study to compare the performance of identifying prophages by current tools against BUD
-	\center
-	\includegraphics[height=4cm, width=8cm]{fig.png}
-	\\
-	\vspace{0.5cm}
-	\tiny{Roux, Simon, et al. PeerJ (2015)}
+	\begin{block}{Integration into Viral Discovery Project}
+  Describe Project::
 	\end{block}
 	\end{frame}
 	%------------------------------------------------------------------
-	
 	
 \section{}
 %------------------------------------------------------------------ Outline
@@ -482,18 +482,34 @@
 %-------------------------------------
   \begin{frame}{Methods to Isolate Phages in Metagenomics}
   \begin{block}{Biological Isolations}
-  Filtrations and density gradiants to collect small particles
+  Filtrations and density gradiants to collect small particles \\
+  {\tiny Lim, Y.W., et al. JoVE 2014}
   \end{block}
   \begin{block}{Sequence Similarity}
-  Mapping to genomes, BLAST, and Hidden Markov Models
+  Mapping to genomes, BLAST, and Hidden Markov Models \\ 
+  {\tiny Roux, S., et al. PeerJ 2015}
   \end{block}
   \begin{block}{Machine Learning Methods}
-  Linear discriminant analysis classifier on sequence k-mer profiles
+  Linear discriminant analysis classifier on sequence k-mer profiles \\
+  {\tiny Ren, Jie, et al. Microbiome 2017}
   \end{block}
   \end{frame}
   %------------------------------------------------------------------
+  \begin{frame}{Current Tool Limitations}
+  \begin{block}{Sequence Similarity}
+  Acessibility to top performing tool is limited to integrated environment \\
+  {\tiny Roux, S., et al. PeerJ 2015}
+  \end{block}
+  \begin{block}{Machine Learning Methods}
+  Limited to R workflow \\
+  {\tiny Ren, Jie, et al. Microbiome 2017}
+  \end{block}
+  \end{frame}
+  %------------------------------------------------------------------
+  %------------------------------------------------------------------
   \begin{frame}{Two-Step Hybrid Model}
-  Insert Pipeline
+  \center
+	\includegraphics[height=7cm, width=10cm]{CPBS_11_18/TwoStep.jpg}
   
   \end{frame}
   %------------------------------------------------------------------
@@ -504,12 +520,16 @@
   
   \end{frame}
 %------------------------------------------------------------------
-  \begin{frame}{Performance Comparison Using CAMI}
-
+  \begin{frame}{Comparison}
+  Performance Comparison Using Critical Assessment of Metagenome Interpretation (CAMI) Data
+  
+  
+  
+  \tiny{Sczyrba, A., et al. Nature Methods 2017}
 	\end{frame}
 	
 	%------------------------------------------------------------------
-	\begin{frame}{Conclusions and Future Directions}
+	\begin{frame}{Future Directions}
 
 	\end{frame}
 %------------------------------------------------------------------
