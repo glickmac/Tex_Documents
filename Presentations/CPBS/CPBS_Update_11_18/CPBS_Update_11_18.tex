@@ -39,7 +39,7 @@
   Incorporated into NCBI's Virus Discovery Project
 	\end{block}
 
-	\begin{block}{Hybrid Viral Contig Prediction}
+	\begin{block}{Hybrid Viral Metagenome Prediction}
 	\tiny{Glickman C., Strong M. Hybrid Viral Identification in Metagenomics. In preperation: Early 2019}
 	\end{block}
 	\end{frame}
@@ -98,8 +98,8 @@
 		
 		\end{block}
 	\vspace{-1cm}
-	\tiny{Strollo SE, et al. Ann Am Thorac Soc. 2015 \\
-	Adjemian J, et al. Am J Respir Crit Care Med. 2012}
+	\tiny{Strollo SE, et al. Ann Am Thorac Soc. (2015) \\
+	Adjemian J, et al. Am J Respir Crit Care Med. (2012)}
 	
 	\end{frame}
 	%----------------------------------------------------------
@@ -148,7 +148,7 @@
   \textcolor{black!50}{Incorporated into NCBI's Virus Discovery Project}
 	\end{block}
 
-	\begin{block}{\textcolor{black!50}{Hybrid Viral Contig Prediction}}
+	\begin{block}{\textcolor{black!50}{Hybrid Viral Metagenome Prediction}}
 	\textcolor{black!50}{\tiny{Glickman C., Strong M. Hybrid Viral Identification in Metagenomics. In preperation: Early 2019}}
 	\end{block}
 	\end{frame}
@@ -182,7 +182,7 @@
 	\column{0.5\textwidth}
 	\vspace{-1cm}
 	\begin{block}{Phages and Pathology}
-	Virulence Factors that cause cholera, dysentery, botulism, and food poisoning are carried on phage elements.
+	Virulence factors that cause cholera, dysentery, botulism, and food poisoning are carried on phage elements
 	\end{block}
 	
 	\column{0.5\textwidth}
@@ -226,7 +226,7 @@
 	\begin{columns}
 	\column{0.7\textwidth}
 	\begin{block}{Sequence Annotation Methods}
-	Hidden Markov Models due to variation \\ from rapid mutation rate
+	Used hidden markov models (HMM) due to \\variation from rapid mutation rate
 	\end{block}
 	
 	\begin{block}{Normalizing By Gene Count}
@@ -240,7 +240,7 @@
 	
 	\begin{block}{Filtering By Phage Abundance}
 	\alert{Streptococcus} phage: \\
-	Genera abundance greater than 30
+	Genera abundance greater than 45
 	\end{block}
 	
 	\column{0.2\textwidth}
@@ -301,10 +301,20 @@
 	\end{frame}
 	%-----------------------------------------
 	\begin{frame}{Comparison to Integrated Phages from Clinical NTM}
-  Describe
+  \center
+	\includegraphics[height=7cm, width=10cm]{CPBS_11_18/ClinicalNTM.jpg} \\
+	\tiny{Arndt, D., et al. Nucleic acids research (2016)}
+	
 	\end{frame}
 	%------------------------------------------------------------------
 	\begin{frame}{Conclusions and Future Directions}
+	\begin{block}{Virulence Factors in Phages}
+	Bacterial genera have different distributions of virulence factors in phage vectors
+	\end{block}
+	
+	\begin{block}{Clinical Hypothesis Generation}
+	The distribution of virulence factors in integrated phages can provide mechanisitic insight into clinical susceptibility and progression 
+	\end{block}
 	
 	\end{frame}
 	%------------------------------------------------------------------
@@ -320,7 +330,7 @@
   Incorporated into NCBI's Virus Discovery Project
 	\end{block}
 
-	\begin{block}{\textcolor{black!50}{Hybrid Viral Contig Prediction}}
+	\begin{block}{\textcolor{black!50}{Hybrid Viral Metagenome Prediction}}
 	\textcolor{black!50}{\tiny{Glickman C., Strong M. Hybrid Viral Identification in Metagenomics. In preperation: Early 2019}}
 	\end{block}
 	\end{frame}
@@ -340,7 +350,7 @@
 	Prophages are important to the emergence of pathogenic bacteria
 	\end{block}
 	
-	\tiny{Canchaya C., et al. Curr Opin Microbiol 2003 \\ Wagner PL. \& Waldor MK. Infect Immune 2002}
+	\tiny{Canchaya C., et al. Curr Opin Microbiol (2003) \\ Wagner PL. \& Waldor MK. Infect Immune (2002)}
 	\end{frame}
 %------------------------------------------------------------------
 	\begin{frame}{Finding Prophages}
@@ -372,16 +382,15 @@
 	%------------------------------------------------------------------
 	\begin{frame}{Prophage Discovery Methods}
 	\begin{block}{Top Down Methods}
-	All prophage discovery methods find prophages within contiguous sequences or genomes
+	All prophage discovery methods find prophages within contiguous sequences (contigs) or genomes
 	\center
 	\includegraphics[height=3cm, width=5cm]{box_contigs.png}
 	\end{block}
 	
 	
-	\begin{block}{Potential Prophage Tool Pitfalls}
-	Metagenomic sequencing produces short contigs that are discarded in current discovery methods
+	\begin{block}{Top Down Pitfalls}
+	Commonly require sequences longer than 1000 bases to make prediction with confidence
 	\end{block}
-	
 	
 	\end{frame}
 	%------------------------------------------------------------------
@@ -415,7 +424,7 @@
 	\begin{itemize}
 	\item Originally written for NCBI Hackathon
 	\item BUD Algorithm written in Perl and BASH
-	\item Utilized Magic-BLAST for streaming of reads 
+
 	\end{itemize}
 	\end{block}
 	
@@ -433,8 +442,8 @@
 	Create a version of BUD for local metagenomic sequences 
 	\end{block}
 	
-	\begin{block}{Integration into Viral Discovery Project}
-  Describe Project::
+	\begin{block}{Viral Discovery Project (VDP)}
+	Integration into VDP a large collaboration aimed at renovating Viral Refseq and provide viral research protocol standards
 	\end{block}
 	\end{frame}
 	%------------------------------------------------------------------
@@ -484,33 +493,39 @@
   \begin{frame}{Methods to Isolate Phages in Metagenomics}
   \begin{block}{Biological Isolations}
   Filtrations and density gradiants to collect small particles \\
-  {\tiny Lim, Y.W., et al. JoVE 2014}
+  {\tiny Lim, Y.W., et al. JoVE (2014)}
   \end{block}
   \begin{block}{Sequence Similarity}
   Mapping to genomes, BLAST, and Hidden Markov Models \\ 
-  {\tiny Roux, S., et al. PeerJ 2015}
+  {\tiny Roux, S., et al. PeerJ (2015)}
   \end{block}
   \begin{block}{Machine Learning Methods}
   Linear discriminant analysis classifier on sequence k-mer profiles \\
-  {\tiny Ren, Jie, et al. Microbiome 2017}
+  {\tiny Ren, Jie, et al. Microbiome (2017)}
   \end{block}
   \end{frame}
   %------------------------------------------------------------------
   \begin{frame}{Current Tool Limitations}
   \begin{block}{Sequence Similarity}
-  Acessibility to top performing tool is limited to integrated environment \\
-  {\tiny Roux, S., et al. PeerJ 2015}
+  \begin{itemize}
+  \item Accessibility of top performing tool is limited to integrated environment
+  \item Requires sequences to be longer than 1000 nucleotides \\
+  {\tiny Roux, S., et al. PeerJ (2015)}
+  \end{itemize}
   \end{block}
   \begin{block}{Machine Learning Methods}
-  Limited to R workflow \\
-  {\tiny Ren, Jie, et al. Microbiome 2017}
+  \begin{itemize}
+  \item Isolated to R framework
+  \item Performance is similar to sequence similarity with longer contigs \\
+  {\tiny Ren, Jie, et al. Microbiome (2017)}
+  \end{itemize}
   \end{block}
   \end{frame}
   %------------------------------------------------------------------
   %------------------------------------------------------------------
   \begin{frame}{Two-Step Hybrid Model}
   \center
-	\includegraphics[height=5cm, width=10cm]{CPBS_11_18/TwoStep.jpg}
+	\includegraphics[height=4cm, width=10cm]{CPBS_11_18/TwoStep.jpg}
   
   \end{frame}
   %------------------------------------------------------------------
@@ -526,7 +541,7 @@
   
   
   
-  \tiny{Sczyrba, A., et al. Nature Methods 2017}
+  \tiny{Sczyrba, A., et al. Nature Methods (2017)}
 	\end{frame}
 	
 	%------------------------------------------------------------------
@@ -540,15 +555,15 @@
 	\begin{columns}
 	\column{0.3\textwidth}
 	\begin{block}{Virulence Factors in Bacteriophages}
-	Optimized methods to simultaneously explore eukaryotic and prokaryotic communties
+	Characterized bacterial virulence factors within phage vectors and compared distribution in database to clinical cohort
 	\end{block}
 	\column{0.3\textwidth}
 	\begin{block}{Building Up Domains: Lysogenic Host Discovery}
-	A hybrid model to identify phage elements in metagenomics and connect them with bacteria
+	A bottom up approach to identifiying lysogenic phages within metagenomics
 	\end{block}
 	\column{0.3\textwidth}
 	\begin{block}{Hybrid Viral Contig Prediction}
-	First quantification of bacterial virulence factors within phage genomes
+	An accessible two-step hybrid viral prediction pipeline for viral identification in metagenomics
 	\end{block}
 	
 	\end{columns}
